@@ -5,62 +5,162 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>MoneyOS — expense tracker that never leaves your iPhone</title>
 <meta name="description" content="An offline expense and investment tracker for India. No account, no servers. Paste a UPI history screenshot and every row is read for you.">
-<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#07090d">
+<link rel="stylesheet" href="home.css">
 </head>
-<body>
-<div class="wrap">
-  <header class="site">
-    <div class="mark">₹</div>
-    <a href="/">MoneyOS</a>
-    <nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
-  </header>
+<body class="home">
+<div class="progress" aria-hidden="true"><span></span></div>
 
-  <span class="pill">No account · No servers · Works offline</span>
-  <h1>Your money data never leaves your iPhone.</h1>
-  <p class="lede">MoneyOS is an expense and investment tracker for India. Everything is stored on
-  the device — there is no sign-up, no backend, and nothing to leak.</p>
+<header class="nav">
+  <a class="brand" href="/"><span class="mark">₹</span>MoneyOS</a>
+  <nav><a href="#add">How it works</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+</header>
 
-  <h2>Adding money in takes seconds</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Screenshot your UPI history</h3>
-      <p>Take a screenshot in PhonePe, Google Pay or Paytm — pick several at once — and every row on
-      each one is read into a review list.</p>
+<!-- 1 · Hero: the phone rises and tilts flat as you scroll -->
+<section class="hero" data-scene="hero">
+  <div class="hero-sticky">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="hero-copy">
+      <span class="pill">No account · No servers · Works offline</span>
+      <h1 class="split">Your money data never leaves your iPhone.</h1>
+      <p class="lede">MoneyOS is an expense and investment tracker for India. Everything is stored on
+      the device — there is no sign-up, no backend, and nothing to leak.</p>
+      <a class="cue" href="#add">Scroll <span aria-hidden="true">↓</span></a>
     </div>
-    <div class="card">
-      <h3>Type one line</h3>
-      <p>“chai 200, petrol 1200” fills the amount, merchant and category. Several at once open a
-      review list instead.</p>
-    </div>
-    <div class="card">
-      <h3>Say it</h3>
-      <p>Speak a few expenses in one go. Parsed on device — your voice never goes to a server.</p>
-    </div>
-    <div class="card">
-      <h3>Statements and SMS</h3>
-      <p>Paste a bank SMS, or drop a PDF or CSV statement. You review every row before it saves.</p>
+    <div class="phone hero-phone" aria-hidden="true">
+      <div class="screen">
+        <div class="ui-top"><span>October</span><b>₹ 18,240</b><small>spent of ₹ 30,000</small></div>
+        <div class="ring"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="50"/><circle class="arc" cx="60" cy="60" r="50"/></svg><div><b>₹ 392</b><small>safe today</small></div></div>
+        <div class="rows">
+          <div><i style="--c:#ff9f0a">☕</i>Chai<span>₹ 20</span></div>
+          <div><i style="--c:#30d158">⛽</i>Petrol<span>₹ 1,200</span></div>
+          <div><i style="--c:#64d2ff">🛒</i>BigBasket<span>₹ 846</span></div>
+        </div>
+      </div>
     </div>
   </div>
+</section>
 
-  <h2>What you get back</h2>
-  <ul>
-    <li><strong>A month you can pace.</strong> Daily and monthly limits, what’s left, and a safe-to-spend figure.</li>
-    <li><strong>Where it went.</strong> Cash, UPI and card split, categories, and a heat map of the month day by day.</li>
-    <li><strong>The whole picture.</strong> Income, EMIs, SIPs and net worth — not just what you spent.</li>
-    <li><strong>Answers.</strong> Ask questions in plain language; the AI runs on Apple’s on-device model and never sees a server.</li>
-  </ul>
+<!-- 2 · Pinned: four ways in, the phone screen swaps per step -->
+<section class="add" id="add" data-scene="add">
+  <div class="add-sticky">
+    <div class="add-copy">
+      <p class="eyebrow">Adding money in takes seconds</p>
+      <ol class="steps">
+        <li class="on">
+          <h3>Screenshot your UPI history</h3>
+          <p>Take a screenshot in PhonePe, Google Pay or Paytm — pick several at once — and every row on
+          each one is read into a review list.</p>
+        </li>
+        <li>
+          <h3>Type one line</h3>
+          <p>“chai 200, petrol 1200” fills the amount, merchant and category. Several at once open a
+          review list instead.</p>
+        </li>
+        <li>
+          <h3>Say it</h3>
+          <p>Speak a few expenses in one go. Parsed on device — your voice never goes to a server.</p>
+        </li>
+        <li>
+          <h3>Statements and SMS</h3>
+          <p>Paste a bank SMS, or drop a PDF or CSV statement. You review every row before it saves.</p>
+        </li>
+      </ol>
+      <div class="dots" aria-hidden="true"><span class="on"></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="phone add-phone" aria-hidden="true">
+      <div class="screen">
+        <div class="pane on">
+          <div class="shot">
+            <div class="scan"></div>
+            <p>Paid to Swiggy <b>₹ 340</b></p><p>Paid to Uber <b>₹ 212</b></p>
+            <p>Paid to Zepto <b>₹ 598</b></p><p>Paid to Airtel <b>₹ 299</b></p>
+          </div>
+          <div class="tag">4 rows found · Review</div>
+        </div>
+        <div class="pane">
+          <div class="input"><span class="typed" data-text="chai 200, petrol 1200"></span><i class="caret"></i></div>
+          <div class="parsed">
+            <div><i style="--c:#ff9f0a">☕</i>Chai<span>₹ 200</span></div>
+            <div><i style="--c:#30d158">⛽</i>Petrol<span>₹ 1,200</span></div>
+          </div>
+        </div>
+        <div class="pane">
+          <div class="mic">🎙</div>
+          <div class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <p class="said">“lunch 180 and auto 60”</p>
+          <div class="tag">On device · nothing sent</div>
+        </div>
+        <div class="pane">
+          <div class="sms">Rs.2,450.00 debited from A/c XX4821 to AMAZON on 02-10. Avl bal Rs.41,206.</div>
+          <div class="files"><span>statement.pdf</span><span>october.csv</span></div>
+          <div class="tag">Review 23 rows before saving</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <h2>Why offline matters</h2>
-  <p>Money apps usually want a login, then your bank credentials, then a subscription. MoneyOS wants
-  none of those. Your transactions, cards, income and goals live in one place: this iPhone. iCloud
-  sync is the single exception, it is yours to switch on, and it syncs through your own private
-  iCloud account — which we cannot see.</p>
+<!-- 3 · Numbers that count up -->
+<section class="stats">
+  <div class="stat"><b data-count="0">0</b><span>accounts to create</span></div>
+  <div class="stat"><b data-count="0">0</b><span>servers holding your data</span></div>
+  <div class="stat"><b data-count="0">0</b><span>analytics or trackers</span></div>
+  <div class="stat"><b data-count="100" data-suffix="%">0</b><span>on your iPhone by default</span></div>
+</section>
 
-  <footer>
-    <a href="privacy.html">Privacy policy</a>
-    <a href="support.html">Support</a>
-    <span>© 2026 MoneyOS</span>
-  </footer>
-</div>
+<!-- 4 · Pinned horizontal rail -->
+<section class="rail" data-scene="rail">
+  <div class="rail-sticky">
+    <p class="eyebrow rail-title">What you get back</p>
+    <div class="track">
+      <article class="panel">
+        <h3>A month you can pace.</h3>
+        <p>Daily and monthly limits, what’s left, and a safe-to-spend figure.</p>
+        <div class="bar"><span style="--w:61%"></span></div><small>₹ 18,240 of ₹ 30,000</small>
+      </article>
+      <article class="panel">
+        <h3>Where it went.</h3>
+        <p>Cash, UPI and card split, categories, and a heat map of the month day by day.</p>
+        <div class="heat" aria-hidden="true"></div>
+      </article>
+      <article class="panel">
+        <h3>The whole picture.</h3>
+        <p>Income, EMIs, SIPs and net worth — not just what you spent.</p>
+        <div class="spark" aria-hidden="true"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><path d="M0,50 L25,44 L50,46 L75,34 L100,36 L125,24 L150,26 L175,14 L200,8"/></svg></div>
+      </article>
+      <article class="panel">
+        <h3>Answers.</h3>
+        <p>Ask questions in plain language; the AI runs on Apple’s on-device model and never sees a server.</p>
+        <div class="chat"><span class="q">How much on food this month?</span><span class="a">₹ 6,420 — 14% less than September.</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · Words light up as you read -->
+<section class="reveal-text" data-scene="words">
+  <div class="words-sticky">
+    <p class="eyebrow">Why offline matters</p>
+    <p class="words">Money apps usually want a login, then your bank credentials, then a subscription.
+    MoneyOS wants none of those. Your transactions, cards, income and goals live in one place: this
+    iPhone. iCloud sync is the single exception, it is yours to switch on, and it syncs through your
+    own private iCloud account — which we cannot see.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="mark big">₹</div>
+  <h2 class="fade">Your money. Your phone. Nobody else.</h2>
+  <p class="fade">Questions? <a href="support.html">Write to the person who built it.</a></p>
+</section>
+
+<footer class="foot">
+  <a href="privacy.html">Privacy policy</a>
+  <a href="support.html">Support</a>
+  <span>© 2026 MoneyOS</span>
+</footer>
+
+<script src="home.js"></script>
 </body>
 </html>
