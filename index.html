@@ -42,6 +42,7 @@
     <symbol id="i-face" viewBox="0 0 24 24"><path d="M3 8V5a2 2 0 0 1 2-2h3M16 3h3a2 2 0 0 1 2 2v3M21 16v3a2 2 0 0 1-2 2h-3M8 21H5a2 2 0 0 1-2-2v-3M9 9v1M15 9v1M12 9v4h-1M9 16c2 1.5 4 1.5 6 0"/></symbol>
     <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M4 21h16"/></symbol>
     <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></symbol>
+    <linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient>
     <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3 6a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
   </defs>
 </svg>
@@ -63,7 +64,7 @@
       <h1 class="split">Your money data never leaves your iPhone.</h1>
       <p class="lede">A private money tracker that lives on your iPhone. Say it, type it, screenshot it,
       or import a statement. Nothing is ever sent to us.</p>
-      <span class="store"><svg><use href="#i-phone"/></svg>Available for iPhone and iPad</span>
+      <span class="store"><svg class="as" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5.5" fill="url(#asg)" stroke="none"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none"/></svg>Available for iPhone and iPad</span>
       <a class="cue" href="#add">Scroll <span aria-hidden="true">↓</span></a>
     </div>
 
@@ -212,7 +213,7 @@
 <section class="stats">
   <div class="stat"><b data-count="0">0</b><span>accounts, logins or bank credentials</span></div>
   <div class="stat"><b data-count="10">0</b><span>screenshots read in one go</span></div>
-  <div class="stat"><b data-count="39">0</b><span>currencies supported</span></div>
+  <button class="stat stat-btn" type="button" data-open-cur aria-haspopup="dialog"><b data-count="39">0</b><span>countries and currencies supported</span><em>See all <span aria-hidden="true">→</span></em></button>
   <div class="stat"><b data-count="0" data-prefix="₹">₹0</b><span>no subscription, no ads, no in-app purchases</span></div>
 </section>
 
@@ -288,6 +289,7 @@
         <div class="cur">
           <span>₹1,20,000.00</span><span>$1,200.00</span><span>€1,200.00</span><span>£1,200.00</span><span>AED 1,200.00</span><span>¥120,000</span>
         </div>
+        <button class="see-all" type="button" data-open-cur aria-haspopup="dialog">See all 39 currencies <span aria-hidden="true">→</span></button>
       </article>
       <article class="panel">
         <h3>Personal, Family, Business.</h3>
@@ -320,7 +322,7 @@
   <img class="cta-icon" src="img/icon-512.png" alt="" width="96" height="96">
   <h2 class="fade">A money app should be a private notebook, not a data pipeline.</h2>
   <p class="fade">MoneyOS is free. The whole app, no subscription.</p>
-  <p class="fade"><span class="store big"><svg><use href="#i-phone"/></svg>Available for iPhone and iPad</span></p>
+  <p class="fade"><span class="store big"><svg class="as" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5.5" fill="url(#asg)" stroke="none"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none"/></svg>Available for iPhone and iPad</span></p>
   <p class="fade small">Questions? <a href="support.html">Write to the person who built it.</a></p>
 </section>
 
@@ -329,6 +331,19 @@
   <a href="support.html">Support</a>
   <span>© 2026 MoneyOS</span>
 </footer>
+
+<!-- Side sheet: the app's own curated currency list (Settings → Currency) -->
+<div class="sheet-backdrop" data-close-cur hidden></div>
+<aside class="sheet" id="currencies" role="dialog" aria-modal="true" aria-labelledby="cur-title" hidden>
+  <header class="sheet-head">
+    <div><h2 id="cur-title">39 countries and currencies</h2>
+    <p>Pick one in Settings, or let MoneyOS match your iPhone. Every total, chart and widget follows.</p></div>
+    <button class="sheet-x" type="button" data-close-cur aria-label="Close">✕</button>
+  </header>
+  <input class="sheet-search" type="search" placeholder="Search country or code" aria-label="Search currencies">
+  <ul class="cur-list"></ul>
+  <p class="sheet-empty" hidden>No match. Try a country name or a code like USD.</p>
+</aside>
 
 <script src="home.js"></script>
 </body>

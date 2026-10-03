@@ -100,6 +100,69 @@
   }, { threshold: 0.35 });
   $$(".stat, .fade").forEach((el) => io.observe(el));
 
+  // ── Currency side sheet: the app's curated list (CurrencyFormatView.swift), in its order. Each
+  // example is ₹1,40,000 worth of digits formatted the way that locale writes money, like the app's picker.
+  const CURRENCIES = [
+    ["en-IN", "India", "INR", "IN"], ["en-US", "United States", "USD", "US"], ["en-GB", "United Kingdom", "GBP", "GB"],
+    ["de-DE", "Eurozone", "EUR", "EU"], ["en-AE", "UAE", "AED", "AE"], ["en-SA", "Saudi Arabia", "SAR", "SA"],
+    ["en-SG", "Singapore", "SGD", "SG"], ["en-AU", "Australia", "AUD", "AU"], ["en-NZ", "New Zealand", "NZD", "NZ"],
+    ["en-CA", "Canada", "CAD", "CA"], ["ja-JP", "Japan", "JPY", "JP"], ["zh-CN", "China", "CNY", "CN"],
+    ["zh-HK", "Hong Kong", "HKD", "HK"], ["ko-KR", "South Korea", "KRW", "KR"], ["en-MY", "Malaysia", "MYR", "MY"],
+    ["th-TH", "Thailand", "THB", "TH"], ["id-ID", "Indonesia", "IDR", "ID"], ["en-PH", "Philippines", "PHP", "PH"],
+    ["vi-VN", "Vietnam", "VND", "VN"], ["en-PK", "Pakistan", "PKR", "PK"], ["en-BD", "Bangladesh", "BDT", "BD"],
+    ["si-LK", "Sri Lanka", "LKR", "LK"], ["ne-NP", "Nepal", "NPR", "NP"], ["de-CH", "Switzerland", "CHF", "CH"],
+    ["sv-SE", "Sweden", "SEK", "SE"], ["nb-NO", "Norway", "NOK", "NO"], ["da-DK", "Denmark", "DKK", "DK"],
+    ["pl-PL", "Poland", "PLN", "PL"], ["tr-TR", "Türkiye", "TRY", "TR"], ["ru-RU", "Russia", "RUB", "RU"],
+    ["he-IL", "Israel", "ILS", "IL"], ["en-ZA", "South Africa", "ZAR", "ZA"], ["en-NG", "Nigeria", "NGN", "NG"],
+    ["en-KE", "Kenya", "KES", "KE"], ["ar-EG", "Egypt", "EGP", "EG"], ["pt-BR", "Brazil", "BRL", "BR"],
+    ["es-MX", "Mexico", "MXN", "MX"], ["es-AR", "Argentina", "ARS", "AR"], ["es-CL", "Chile", "CLP", "CL"],
+  ];
+  const flag = (r) => String.fromCodePoint(...[...r].map((c) => 127397 + c.charCodeAt(0)));
+  const example = (loc, cur) => {
+    try { return new Intl.NumberFormat(loc, { style: "currency", currency: cur }).format(140000); }
+    catch { return `${cur} 140,000`; }
+  };
+  const sheet = $("#currencies"), backdrop = $(".sheet-backdrop");
+  if (sheet) {
+    const list = $(".cur-list", sheet), search = $(".sheet-search", sheet), empty = $(".sheet-empty", sheet);
+    list.innerHTML = CURRENCIES.map(([loc, name, code, reg]) =>
+      `<li data-q="${(name + " " + code).toLowerCase()}"><span class="flag" aria-hidden="true">${flag(reg)}</span>` +
+      `<span class="name">${name}<small>${code}</small></span><span class="ex" dir="ltr">${example(loc, code)}</span></li>`).join("");
+    const rows = $$("li", list);
+    search.addEventListener("input", () => {
+      const q = search.value.trim().toLowerCase();
+      let shown = 0;
+      rows.forEach((r) => { const on = !q || r.dataset.q.includes(q); r.hidden = !on; shown += on; });
+      empty.hidden = shown > 0;
+    });
+
+    let opener = null, closeTimer;
+    const open = (e) => {
+      opener = e.currentTarget;
+      clearTimeout(closeTimer);
+      sheet.hidden = backdrop.hidden = false;
+      document.body.classList.add("cur-lock");
+      requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.add("cur-open")));
+      setTimeout(() => search.focus({ preventScroll: true }), 50);
+    };
+    const close = () => {
+      document.body.classList.remove("cur-open", "cur-lock");
+      closeTimer = setTimeout(() => { sheet.hidden = backdrop.hidden = true; }, reduce ? 0 : 350);
+      opener?.focus({ preventScroll: true });
+    };
+    $$("[data-open-cur]").forEach((b) => b.addEventListener("click", open));
+    $$("[data-close-cur]").forEach((b) => b.addEventListener("click", close));
+    addEventListener("keydown", (e) => {
+      if (sheet.hidden) return;
+      if (e.key === "Escape") return close();
+      if (e.key === "Tab") { // keep focus inside the sheet
+        const f = $$("button, input", sheet), first = f[0], last = f[f.length - 1];
+        if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+        else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      }
+    });
+  }
+
   if (reduce) { showDay(TODAY); return; }
 
   const nav = $(".nav"), root = document.documentElement;

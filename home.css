@@ -316,3 +316,39 @@ h1 { font-size: clamp(40px, 7vw, 84px); line-height: 1.02; letter-spacing: -.04e
   padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(231,193,92,.45); background: rgba(231,193,92,.08); margin-bottom: 22px; }
 .store svg { font-size: 18px; color: var(--gold); }
 .store.big { font-size: 17px; padding: 13px 24px; margin: 14px 0 6px; }
+.store svg.as { font-size: 22px; color: inherit; }
+
+/* Clickable "39" stat + rail link */
+.stat-btn { all: unset; box-sizing: border-box; cursor: pointer; display: block; border-top: 1px solid var(--line); padding-top: 22px; }
+.stat-btn em { display: inline-block; margin-top: 8px; font-style: normal; font-size: 14px; font-weight: 600; color: var(--gold); }
+.stat-btn:hover em span, .see-all:hover span { transform: translateX(3px); }
+.stat-btn em span, .see-all span { display: inline-block; transition: transform .2s; }
+.stat-btn:focus-visible, .see-all:focus-visible { outline: 2px solid var(--gold); outline-offset: 6px; border-radius: 6px; }
+.see-all { all: unset; cursor: pointer; margin-top: 16px; font-size: 15px; font-weight: 600; color: var(--gold); }
+
+/* Side sheet */
+.sheet-backdrop { position: fixed; inset: 0; z-index: 40; background: rgba(0,0,0,.55); backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); opacity: 0; transition: opacity .3s; }
+.sheet { position: fixed; z-index: 41; top: 0; right: 0; bottom: 0; width: min(440px, 100vw); background: var(--bg2);
+  border-left: 1px solid var(--line); display: flex; flex-direction: column; transform: translateX(100%);
+  transition: transform .35s cubic-bezier(.2,.8,.2,1); box-shadow: -30px 0 80px rgba(0,0,0,.5); }
+.cur-open .sheet { transform: none; } .cur-open .sheet-backdrop { opacity: 1; }
+.cur-lock { overflow: hidden; }
+.sheet-head { display: flex; gap: 12px; align-items: flex-start; padding: 24px 22px 14px; }
+.sheet-head h2 { font-size: 24px; letter-spacing: -.02em; margin: 0 0 6px; }
+.sheet-head p { margin: 0; color: var(--muted); font-size: 14.5px; line-height: 1.5; }
+.sheet-x { all: unset; cursor: pointer; flex: none; width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center;
+  background: rgba(255,255,255,.08); color: var(--fg); font-size: 14px; }
+.sheet-x:hover { background: rgba(255,255,255,.14); } .sheet-x:focus-visible { outline: 2px solid var(--gold); }
+.sheet-search { margin: 0 22px 10px; padding: 11px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--card);
+  color: var(--fg); font: inherit; font-size: 15px; }
+.sheet-search:focus { outline: none; border-color: rgba(231,193,92,.6); }
+.cur-list { list-style: none; margin: 0; padding: 0 12px 24px; overflow-y: auto; flex: 1; overscroll-behavior: contain; }
+.cur-list li { display: flex; align-items: center; gap: 12px; padding: 11px 10px; border-radius: 12px; }
+.cur-list li:hover { background: rgba(255,255,255,.04); }
+.cur-list .flag { font-size: 22px; width: 30px; text-align: center; }
+.cur-list .name { flex: 1; min-width: 0; } .cur-list .name small { display: block; color: var(--muted); font-size: 12.5px; }
+.cur-list .ex { font: 600 13.5px ui-monospace, "SF Mono", Menlo, monospace; color: var(--fg); white-space: nowrap; }
+.cur-list li:first-child .ex { color: var(--gold); }
+.sheet-empty { color: var(--muted); padding: 0 22px; }
+@media (prefers-reduced-motion: reduce) { .sheet, .sheet-backdrop { transition: none; } }
