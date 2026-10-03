@@ -1,48 +1,37 @@
-/* One stylesheet, no CDN, no fonts to fetch — the site should load instantly on an Indian 4G
-   connection, and a privacy-first app whose website phones out to three third parties would be
-   telling on itself. */
+/* Privacy and support pages. Same palette as the landing page (home.css): forest green and gold
+   from the app icon. One stylesheet, no CDN, no fonts to fetch: a privacy-first app whose
+   website phones out to three third parties would be telling on itself. */
 :root {
-  --bg: #ffffff; --fg: #10151c; --muted: #5b6672; --line: #e6e9ee;
-  --accent: #0a84ff; --card: #f6f8fa; --good: #1f9d55;
-}
-@media (prefers-color-scheme: dark) {
-  :root { --bg: #0b0f14; --fg: #e9eef5; --muted: #97a3b1; --line: #1e2732;
-          --accent: #4aa3ff; --card: #121922; }
+  --bg: #0b1310; --fg: #f1efe6; --muted: #93a39a; --line: #1f2e27; --card: #121f1a;
+  --gold: #e7c15c; --green: #30d158;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; background: var(--bg); color: var(--fg);
-  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  padding: 0 20px;
+  background-image: radial-gradient(900px 500px at 50% -120px, rgba(231,193,92,.10), rgba(48,209,88,.05) 45%, transparent 75%);
+  background-repeat: no-repeat;
+  font: 17px/1.7 -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; padding: 0 16px;
 }
-.wrap { max-width: 720px; margin: 0 auto; padding: 56px 0 80px; }
-header.site { display: flex; align-items: center; gap: 12px; margin-bottom: 56px; }
-header.site .mark {
-  width: 38px; height: 38px; border-radius: 10px; background: var(--accent);
-  display: grid; place-items: center; color: #fff; font-weight: 700; font-size: 20px;
-}
-header.site a { color: var(--fg); text-decoration: none; font-weight: 650; letter-spacing: -0.01em; }
+.wrap { max-width: 720px; margin: 0 auto; padding: 22px 0 80px; }
+header.site { display: flex; align-items: center; gap: 12px; margin-bottom: 64px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--fg); text-decoration: none; font-weight: 650; }
+.brand img { border-radius: 8px; }
 nav { margin-left: auto; display: flex; gap: 20px; font-size: 15px; }
 nav a { color: var(--muted); text-decoration: none; }
-nav a:hover { color: var(--fg); }
-h1 { font-size: 40px; line-height: 1.12; letter-spacing: -0.025em; margin: 0 0 16px; }
-h2 { font-size: 22px; letter-spacing: -0.015em; margin: 40px 0 10px; }
-h3 { font-size: 17px; margin: 26px 0 6px; }
-p { margin: 0 0 16px; }
+nav a:hover, nav a[aria-current="page"] { color: var(--fg); }
+nav a[aria-current="page"] { box-shadow: 0 2px 0 var(--gold); }
+h1 { font-size: clamp(36px, 6vw, 52px); line-height: 1.05; letter-spacing: -.035em; margin: 0 0 14px; }
+h2 { font-size: 22px; letter-spacing: -.015em; margin: 48px 0 10px; padding-top: 28px; border-top: 1px solid var(--line); }
+h3 { font-size: 18px; margin: 30px 0 6px; letter-spacing: -.01em; }
+p { margin: 0 0 16px; color: #d6d8cf; }
+strong { color: var(--fg); }
 .lede { font-size: 20px; color: var(--muted); margin-bottom: 32px; }
-.pill {
-  display: inline-block; font-size: 13px; font-weight: 600; color: var(--good);
-  background: color-mix(in srgb, var(--good) 12%, transparent);
-  padding: 5px 11px; border-radius: 999px; margin-bottom: 20px;
-}
-.grid { display: grid; gap: 14px; grid-template-columns: 1fr 1fr; margin: 28px 0; }
-@media (max-width: 620px) { .grid { grid-template-columns: 1fr; } h1 { font-size: 32px; } }
-.card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
-.card h3 { margin: 0 0 4px; font-size: 16px; }
-.card p { margin: 0; color: var(--muted); font-size: 15px; }
-ul { padding-left: 20px; } li { margin-bottom: 8px; }
-a { color: var(--accent); }
-footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--line);
+.updated { display: inline-block; color: var(--gold); background: rgba(231,193,92,.1); font-size: 13px; font-weight: 600;
+  padding: 5px 12px; border-radius: 999px; margin-bottom: 30px; }
+ul { padding-left: 20px; } li { margin-bottom: 8px; color: #d6d8cf; } li::marker { color: var(--gold); }
+a { color: var(--gold); text-underline-offset: 3px; }
+footer { margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--line);
          color: var(--muted); font-size: 14px; display: flex; gap: 18px; flex-wrap: wrap; }
-.updated { color: var(--muted); font-size: 14px; margin-bottom: 28px; }
+@media (max-width: 520px) { header.site { margin-bottom: 44px; } nav { gap: 14px; } }
