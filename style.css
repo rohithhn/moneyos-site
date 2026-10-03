@@ -169,3 +169,4 @@ header.site::before { content: ""; position: absolute; z-index: -1; top: 0; bott
 .toc { top: 88px; }
 .post h2, [id] { scroll-margin-top: 84px; }
 html, body { overflow-x: clip; }
+.post-card + .post-card { margin-top: 20px; }
