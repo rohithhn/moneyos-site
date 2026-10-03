@@ -1,0 +1,15 @@
+{
+  "slack_channel": "C0C6FBKS7DL",
+  "owner_slack_user": "U0C6FB9QRHC",
+  "drafts": [
+    {
+      "date": "2026-10-03",
+      "slug": "track-upi-payments-without-bank-login",
+      "title": "How to track UPI payments without giving an app your bank login",
+      "branch": "blog/track-upi-payments-without-bank-login",
+      "preview": "https://claude.ai/artifact/KnT8UR2eRtqUj6CBvsbUs1",
+      "slack_ts": "1791042997.665169",
+      "status": "pending"
+    }
+  ]
+}
