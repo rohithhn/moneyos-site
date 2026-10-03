@@ -105,7 +105,7 @@ h1 { font-size: clamp(40px, 7vw, 84px); line-height: 1.02; letter-spacing: -.04e
   transition: opacity .8s, transform .8s cubic-bezier(.2,.8,.2,1), filter .8s; transition-delay: calc(var(--i) * 60ms); }
 .ready .split .w { opacity: 1; transform: none; filter: none; }
 .lede { font-size: clamp(17px, 2vw, 21px); color: var(--muted); max-width: 640px; margin: 0 auto 26px; }
-.cue { color: var(--muted); text-decoration: none; font-size: 14px; }
+.cue { display: block; width: max-content; margin: 0 auto; color: var(--muted); text-decoration: none; font-size: 14px; }
 .cue span { display: inline-block; animation: bob 1.6s infinite; }
 @keyframes bob { 50% { transform: translateY(5px); } }
 .hero-phone { position: absolute; z-index: 1; left: 50%; top: 100%;
@@ -310,3 +310,9 @@ h1 { font-size: clamp(40px, 7vw, 84px); line-height: 1.02; letter-spacing: -.04e
   .panel { flex-basis: auto; min-height: 0; } .words .w { color: var(--fg); }
   *, *::before, *::after { animation: none !important; }
 }
+
+/* "Available for iPhone and iPad" badge */
+.store { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 600; color: var(--fg);
+  padding: 10px 18px; border-radius: 999px; border: 1px solid rgba(231,193,92,.45); background: rgba(231,193,92,.08); margin-bottom: 22px; }
+.store svg { font-size: 18px; color: var(--gold); }
+.store.big { font-size: 17px; padding: 13px 24px; margin: 14px 0 6px; }
