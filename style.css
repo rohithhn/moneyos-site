@@ -35,3 +35,42 @@ a { color: var(--gold); text-underline-offset: 3px; }
 footer { margin-top: 72px; padding-top: 24px; border-top: 1px solid var(--line);
          color: var(--muted); font-size: 14px; display: flex; gap: 18px; flex-wrap: wrap; }
 @media (max-width: 520px) { header.site { margin-bottom: 44px; } nav { gap: 14px; } }
+
+/* ───── Blog ───── */
+.post h1 { font-size: clamp(32px, 5.4vw, 48px); line-height: 1.08; margin-bottom: 18px; }
+.post h2 { font-size: 25px; scroll-margin-top: 24px; }
+.crumbs { font-size: 13px; color: var(--muted); margin-bottom: 18px; } .crumbs a { color: var(--muted); }
+.kicker { font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+.answer { font-size: 18px; color: var(--fg); }
+.tldr { background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: 18px; padding: 22px 24px 10px; margin: 8px 0 12px; }
+.tldr h2 { margin: 0 0 10px; padding: 0; border: 0; font-size: 15px; letter-spacing: .06em; text-transform: uppercase; color: var(--gold); }
+.tldr li { margin-bottom: 10px; }
+.ways li { margin-bottom: 12px; padding-left: 4px; }
+.table-wrap { overflow-x: auto; margin: 20px 0 8px; border: 1px solid var(--line); border-radius: 16px; }
+table { width: 100%; border-collapse: collapse; font-size: 15px; min-width: 460px; }
+th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); }
+thead th { font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); background: var(--card); }
+tbody th { font-weight: 600; } tbody tr:last-child > * { border-bottom: 0; }
+td { color: #c3c7bd; } td.yes { color: var(--green); font-weight: 600; }
+.faq details { border: 1px solid var(--line); border-radius: 14px; background: var(--card); margin-bottom: 10px; }
+.faq summary { cursor: pointer; padding: 14px 18px; font-weight: 600; list-style: none; display: flex; gap: 12px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; margin-left: auto; color: var(--gold); font-weight: 400; font-size: 20px; line-height: 1.2; }
+.faq details[open] summary::after { content: "–"; }
+.faq details p { padding: 0 18px 4px; }
+.cta-box { margin-top: 56px; text-align: center; background: var(--card); border: 1px solid var(--line); border-radius: 26px; padding: 40px 24px 28px; }
+.cta-box img { border-radius: 16px; box-shadow: 0 16px 50px rgba(231,193,92,.25); }
+.cta-box h2 { border: 0; padding: 0; margin: 18px 0 8px; font-size: 28px; }
+.cta-box p { color: var(--muted); }
+.cta-box .small { font-size: 15px; margin-top: 16px; }
+.store-link { display: inline-flex; align-items: center; gap: 9px; margin-top: 6px; padding: 12px 22px; border-radius: 999px;
+  color: var(--fg); font-weight: 600; text-decoration: none; border: 1px solid rgba(231,193,92,.5); background: rgba(231,193,92,.08);
+  transition: background .2s, border-color .2s; }
+.store-link:hover { background: rgba(231,193,92,.16); border-color: rgba(231,193,92,.85); }
+.store-link svg { width: 22px; height: 22px; } .store-link > span { color: var(--gold); }
+.post-card { display: block; text-decoration: none; color: inherit; background: var(--card); border: 1px solid var(--line);
+  border-radius: 22px; padding: 26px; transition: border-color .2s, transform .2s; }
+.post-card:hover { border-color: rgba(231,193,92,.5); transform: translateY(-2px); }
+.post-card h2 { border: 0; padding: 0; margin: 0 0 10px; font-size: 24px; line-height: 1.2; }
+.post-card p { color: var(--muted); } .post-card .more { color: var(--gold); font-weight: 600; }
+@media (max-width: 520px) { table { min-width: 0; font-size: 13.5px; } th, td { padding: 10px 10px; } thead th { font-size: 11px; } }

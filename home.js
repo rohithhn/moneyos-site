@@ -138,7 +138,7 @@
 
     let opener = null, closeTimer;
     const open = (e) => {
-      opener = e.currentTarget;
+      opener = e?.currentTarget || $("[data-open-cur]");
       clearTimeout(closeTimer);
       sheet.hidden = backdrop.hidden = false;
       document.body.classList.add("cur-lock");
@@ -152,6 +152,7 @@
     };
     $$("[data-open-cur]").forEach((b) => b.addEventListener("click", open));
     $$("[data-close-cur]").forEach((b) => b.addEventListener("click", close));
+    if (location.hash === "#currencies") open(); // deep link, e.g. from the blog
     addEventListener("keydown", (e) => {
       if (sheet.hidden) return;
       if (e.key === "Escape") return close();
