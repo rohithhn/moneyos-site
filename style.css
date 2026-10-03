@@ -154,3 +154,7 @@ td { color: #c7c7cc; } td.yes { color: var(--fg); font-weight: 600; background: 
 .wide-fig { max-width: 560px; }
 .blog main { overflow-x: clip; }
 .post-card { align-items: center; } .post-card img { height: auto; aspect-ratio: 1200 / 630; object-fit: contain; }
+@media (max-width: 760px) {
+  .bento .b-phone, .sheet-fig { margin-left: auto !important; margin-right: auto !important; text-align: center; }
+  .bento .b-phone figcaption, .sheet-fig figcaption, .phone-fig figcaption { text-align: center; }
+}
