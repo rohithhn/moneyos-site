@@ -27,7 +27,12 @@ is excluded from the public site (GitHub Pages / Jekyll skips folders that start
    shared images under `files`), so the owner can open it from Slack.
 5. **Send to Slack** (`C0C6FBKS7DL`): one parent message with title, one-paragraph summary,
    target search queries, word count, preview link, and the reply instructions. Then the full
-   post text in thread replies (split under 4,500 characters each). Record `slack_ts`, branch,
+   post text in thread replies (split under 4,500 characters each). Then one more thread reply
+   with the visuals: take a full-page 1440px screenshot, cut it into 3 JPGs, commit them to the
+   draft branch as `_content/previews/<slug>-1.jpg` .. `-3.jpg`, and post their
+   `https://raw.githubusercontent.com/rohithhn/moneyos-site/<branch>/...` links plus the cover
+   image link (Slack shows them as image previews; direct file uploads are blocked by the
+   sandbox network). Record `slack_ts`, branch,
    slug, preview URL and date in `_content/drafts.json` and commit that file to `main`.
 
 ## Publishing (after approval only)
