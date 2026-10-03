@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js): website visit counts only. The MoneyOS app itself sends nothing. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WFNCXSXRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3WFNCXSXRG');
+</script>
 <title>MoneyOS: a private money tracker for iPhone and iPad</title>
 <meta name="description" content="Log money the way you like: say it, type it, screenshot it, or import CSV and PDF statements. No account, no servers, and nothing is ever sent to us.">
 <link rel="canonical" href="https://rohithhn.github.io/moneyos-site/">
@@ -321,7 +329,7 @@
 </section>
 
 <section class="privacy">
-  <div class="pcard fade"><svg><use href="#i-lock"/></svg><h3>Data Not Collected</h3><p>That’s our App Privacy label. No analytics, no crash reporting, no ad SDK, no tracking.</p></div>
+  <div class="pcard fade"><svg><use href="#i-lock"/></svg><h3>Data Not Collected</h3><p>That’s the app’s App Privacy label. The app has no analytics, no crash reporting, no ad SDK and no tracking.</p></div>
   <div class="pcard fade"><svg><use href="#i-face"/></svg><h3>Face ID lock</h3><p>Lock the app behind Face ID, so a borrowed phone doesn’t mean a borrowed ledger.</p></div>
   <div class="pcard fade"><svg><use href="#i-folder"/></svg><h3>Backups that outlive the app</h3><p>Encrypted daily backups, copied to a folder you pick in Files or iCloud Drive.</p></div>
   <div class="pcard fade"><svg><use href="#i-down"/></svg><h3>Your data, out any time</h3><p>Export everything to CSV or JSON whenever you want it.</p></div>
