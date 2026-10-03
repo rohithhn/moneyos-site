@@ -6,7 +6,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 
 | # | Status | Working title | Main query | MoneyOS angle |
 |---|---|---|---|---|
-| 1 | drafted | How to track UPI payments without giving an app your bank login | track upi payments automatically | Screenshot import, review list, on-device |
+| 1 | published | How to track UPI payments without giving an app your bank login | track upi payments automatically | Screenshot import, review list, on-device |
 | 2 | todo | Why iPhone apps can't read your bank SMS, and the fastest workaround | expense tracker read sms iphone | Paste SMS, screenshots, share from Mail |
 | 3 | todo | How to see where your Google Pay and PhonePe money went this month | google pay monthly spending | Screenshots of payment history, categories |
 | 4 | todo | How to work out a safe daily spending limit from your salary | daily spending limit calculator | Safe-to-spend, daily and monthly limits |

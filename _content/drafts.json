@@ -9,7 +9,9 @@
       "branch": "blog/track-upi-payments-without-bank-login",
       "preview": "https://claude.ai/artifact/KnT8UR2eRtqUj6CBvsbUs1",
       "slack_ts": "1791042997.665169",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-03",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-upi-payments-without-bank-login.html"
     }
   ]
 }
