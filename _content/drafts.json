@@ -12,6 +12,15 @@
       "status": "published",
       "published": "2026-10-03",
       "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-upi-payments-without-bank-login.html"
+    },
+    {
+      "date": "2026-10-04",
+      "slug": "why-iphone-apps-cant-read-bank-sms",
+      "title": "Why iPhone apps can't read your bank SMS, and the fastest workaround",
+      "branch": "blog/why-iphone-apps-cant-read-bank-sms",
+      "preview": "https://claude.ai/artifact/AnLECmPDzdBSn4tWTtWNv7",
+      "slack_ts": "1791084227.035219",
+      "status": "pending"
     }
   ]
 }
