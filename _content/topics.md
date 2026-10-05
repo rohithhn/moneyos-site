@@ -8,7 +8,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 |---|---|---|---|---|
 | 1 | published | How to track UPI payments without giving an app your bank login | track upi payments automatically | Screenshot import, review list, on-device |
 | 2 | published | Why iPhone apps can't read your bank SMS, and the fastest workaround | expense tracker read sms iphone | Paste SMS, screenshots, share from Mail |
-| 3 | todo | How to see where your Google Pay and PhonePe money went this month | google pay monthly spending | Screenshots of payment history, categories |
+| 3 | drafted | How to see where your Google Pay and PhonePe money went this month | google pay monthly spending | Screenshots of payment history, categories |
 | 4 | todo | How to work out a safe daily spending limit from your salary | daily spending limit calculator | Safe-to-spend, daily and monthly limits |
 | 5 | todo | How to track EMIs alongside your daily expenses | track emi expenses app | EMIs with payoff tracking |
 | 6 | todo | SIPs are not spending: tracking investments separately from expenses | track sip and expenses together | SIPs and investments excluded from spend |

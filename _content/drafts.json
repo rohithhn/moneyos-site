@@ -23,6 +23,15 @@
       "status": "published",
       "published": "2026-10-04",
       "live_url": "https://rohithhn.github.io/moneyos-site/blog/why-iphone-apps-cant-read-bank-sms.html"
+    },
+    {
+      "date": "2026-10-05",
+      "slug": "google-pay-phonepe-monthly-spending",
+      "title": "How to see where your Google Pay and PhonePe money went this month",
+      "branch": "blog/google-pay-phonepe-monthly-spending",
+      "preview": "https://claude.ai/artifact/NeXvq1UXvU9aZPVcibD1WW",
+      "slack_ts": "1791170783.215249",
+      "status": "pending"
     }
   ]
 }
