@@ -31,7 +31,9 @@
       "branch": "blog/google-pay-phonepe-monthly-spending",
       "preview": "https://claude.ai/artifact/NeXvq1UXvU9aZPVcibD1WW",
       "slack_ts": "1791170783.215249",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-05",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/google-pay-phonepe-monthly-spending.html"
     }
   ]
 }
