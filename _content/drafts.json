@@ -42,7 +42,9 @@
       "branch": "blog/safe-daily-spending-limit-from-salary",
       "preview": "https://claude.ai/artifact/74WRno8qxjHhf3hZcfHjZR",
       "slack_ts": "1791257053.958829",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-06",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/safe-daily-spending-limit-from-salary.html"
     }
   ]
 }
