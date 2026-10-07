@@ -10,7 +10,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 2 | published | Why iPhone apps can't read your bank SMS, and the fastest workaround | expense tracker read sms iphone | Paste SMS, screenshots, share from Mail |
 | 3 | published | How to see where your Google Pay and PhonePe money went this month | google pay monthly spending | Screenshots of payment history, categories |
 | 4 | published | How to work out a safe daily spending limit from your salary | daily spending limit calculator | Safe-to-spend, daily and monthly limits |
-| 5 | drafted | How to track EMIs alongside your daily expenses | track emi expenses app | EMIs with payoff tracking |
+| 5 | published | How to track EMIs alongside your daily expenses | track emi expenses app | EMIs with payoff tracking |
 | 6 | todo | SIPs are not spending: tracking investments separately from expenses | track sip and expenses together | SIPs and investments excluded from spend |
 | 7 | todo | Expense tracker without login: why no-account apps are safer | expense tracker without login | No account, Data Not Collected |
 | 8 | todo | How to import a password-protected bank statement PDF | import bank statement pdf expense tracker | PDF and CSV import, review list |
