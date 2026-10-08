@@ -56,6 +56,15 @@
       "status": "published",
       "published": "2026-10-07",
       "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-emi-with-daily-expenses.html"
+    },
+    {
+      "date": "2026-10-08",
+      "slug": "sip-not-spending",
+      "title": "SIPs are not spending: tracking investments separately from expenses",
+      "branch": "blog/sip-not-spending",
+      "preview": "https://claude.ai/artifact/DofY5tdVQkjE1uB6cPE2og",
+      "slack_ts": "1791429906.689479",
+      "status": "pending"
     }
   ]
 }
