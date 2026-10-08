@@ -64,7 +64,9 @@
       "branch": "blog/sip-not-spending",
       "preview": "https://claude.ai/artifact/DofY5tdVQkjE1uB6cPE2og",
       "slack_ts": "1791429906.689479",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-08",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/sip-not-spending.html"
     }
   ]
 }
