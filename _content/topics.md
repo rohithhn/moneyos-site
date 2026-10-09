@@ -12,7 +12,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 4 | published | How to work out a safe daily spending limit from your salary | daily spending limit calculator | Safe-to-spend, daily and monthly limits |
 | 5 | published | How to track EMIs alongside your daily expenses | track emi expenses app | EMIs with payoff tracking |
 | 6 | published | SIPs are not spending: tracking investments separately from expenses | track sip and expenses together | SIPs and investments excluded from spend |
-| 7 | todo | Expense tracker without login: why no-account apps are safer | expense tracker without login | No account, Data Not Collected |
+| 7 | drafted | Expense tracker without login: why no-account apps are safer | expense tracker without login | No account, Data Not Collected |
 | 8 | todo | How to import a password-protected bank statement PDF | import bank statement pdf expense tracker | PDF and CSV import, review list |
 | 9 | todo | How to set category budgets for food, fuel and shopping | category wise budget app | Category and card limits, 80% and 100% alerts |
 | 10 | todo | How to log expenses by voice in one go | log expenses by voice | Say it, several entries at once |

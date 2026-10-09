@@ -67,6 +67,15 @@
       "status": "published",
       "published": "2026-10-08",
       "live_url": "https://rohithhn.github.io/moneyos-site/blog/sip-not-spending.html"
+    },
+    {
+      "date": "2026-10-09",
+      "slug": "expense-tracker-without-login",
+      "title": "Expense tracker without login: why no-account apps are safer",
+      "branch": "blog/expense-tracker-without-login",
+      "preview": "https://claude.ai/artifact/V4jsdkAzomsHKa3PHQd1up",
+      "slack_ts": "1791516373.590149",
+      "status": "pending"
     }
   ]
 }
