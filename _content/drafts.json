@@ -75,7 +75,9 @@
       "branch": "blog/expense-tracker-without-login",
       "preview": "https://claude.ai/artifact/V4jsdkAzomsHKa3PHQd1up",
       "slack_ts": "1791516373.590149",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-10",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/expense-tracker-without-login.html"
     },
     {
       "date": "2026-10-10",
@@ -84,7 +86,9 @@
       "branch": "blog/import-bank-statement-pdf",
       "preview": "https://claude.ai/artifact/4y8qkrZP6srr8UBk1u3Enq",
       "slack_ts": "1791602698.575349",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-10",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/import-bank-statement-pdf.html"
     }
   ]
 }
