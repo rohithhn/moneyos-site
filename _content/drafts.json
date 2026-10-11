@@ -89,6 +89,15 @@
       "status": "published",
       "published": "2026-10-10",
       "live_url": "https://rohithhn.github.io/moneyos-site/blog/import-bank-statement-pdf.html"
+    },
+    {
+      "date": "2026-10-11",
+      "slug": "category-budgets-food-fuel-shopping",
+      "title": "How to set category budgets for food, fuel and shopping",
+      "branch": "blog/category-budgets-food-fuel-shopping",
+      "preview": "https://claude.ai/artifact/DcHdYLsT5cta7GVKY9U7vs",
+      "slack_ts": "1791689202.393639",
+      "status": "pending"
     }
   ]
 }
