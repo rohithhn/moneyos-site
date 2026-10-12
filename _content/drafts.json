@@ -100,6 +100,15 @@
       "status": "published",
       "published": "2026-10-11",
       "live_url": "https://rohithhn.github.io/moneyos-site/blog/category-budgets-food-fuel-shopping.html"
+    },
+    {
+      "date": "2026-10-12",
+      "slug": "log-expenses-by-voice",
+      "title": "How to log expenses by voice, several at once",
+      "branch": "blog/log-expenses-by-voice",
+      "preview": "https://claude.ai/artifact/P9XzXjyuV2w5iyjiy6zWyQ",
+      "slack_ts": "1791775443.755469",
+      "status": "pending"
     }
   ]
 }
