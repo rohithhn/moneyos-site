@@ -109,6 +109,15 @@
       "preview": "https://claude.ai/artifact/P9XzXjyuV2w5iyjiy6zWyQ",
       "slack_ts": "1791775443.755469",
       "status": "pending"
+    },
+    {
+      "date": "2026-10-13",
+      "slug": "ask-your-spending-on-device-ai",
+      "title": "Ask your spending a question with on-device AI",
+      "branch": "blog/ask-your-spending-on-device-ai",
+      "preview": "https://claude.ai/artifact/Ri8VURMTgabCbXh5GwJpa4",
+      "slack_ts": "1791861892.451369",
+      "status": "pending"
     }
   ]
 }

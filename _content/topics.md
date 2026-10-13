@@ -16,7 +16,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 8 | published | How to import a password-protected bank statement PDF | import bank statement pdf expense tracker | PDF and CSV import, review list |
 | 9 | published | How to set category budgets for food, fuel and shopping | category wise budget app | Category and card limits, 80% and 100% alerts |
 | 10 | drafted | How to log expenses by voice in one go | log expenses by voice | Say it, several entries at once |
-| 11 | todo | Ask your spending a question: on-device AI for personal finance | ai expense tracker private | Apple Intelligence Ask, on device |
+| 11 | drafted | Ask your spending a question: on-device AI for personal finance | ai expense tracker private | Apple Intelligence Ask, on device |
 | 12 | todo | A spending heat map: find the days you overspend | spending heat map | Month heat map, under/over pace |
 | 13 | todo | How to stop surprise subscription renewals | track subscriptions india | Subscriptions tracking |
 | 14 | todo | Tracking cash spending when everything else is UPI | track cash expenses | Cash payment mode, quick entry |
