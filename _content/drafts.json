@@ -118,6 +118,15 @@
       "preview": "https://claude.ai/artifact/Ri8VURMTgabCbXh5GwJpa4",
       "slack_ts": "1791861892.451369",
       "status": "pending"
+    },
+    {
+      "date": "2026-10-14",
+      "slug": "spending-heat-map-overspend-days",
+      "title": "A spending heat map: find the days you overspend",
+      "branch": "blog/spending-heat-map-overspend-days",
+      "preview": "https://claude.ai/artifact/FDqoHxcCsFhQrgmyaSxUT7",
+      "slack_ts": "1791948310.592279",
+      "status": "pending"
     }
   ]
 }
