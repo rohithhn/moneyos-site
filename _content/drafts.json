@@ -108,7 +108,9 @@
       "branch": "blog/log-expenses-by-voice",
       "preview": "https://claude.ai/artifact/P9XzXjyuV2w5iyjiy6zWyQ",
       "slack_ts": "1791775443.755469",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-14",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/log-expenses-by-voice.html"
     },
     {
       "date": "2026-10-13",
@@ -117,7 +119,9 @@
       "branch": "blog/ask-your-spending-on-device-ai",
       "preview": "https://claude.ai/artifact/Ri8VURMTgabCbXh5GwJpa4",
       "slack_ts": "1791861892.451369",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-14",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/ask-your-spending-on-device-ai.html"
     },
     {
       "date": "2026-10-14",
@@ -126,7 +130,9 @@
       "branch": "blog/spending-heat-map-overspend-days",
       "preview": "https://claude.ai/artifact/FDqoHxcCsFhQrgmyaSxUT7",
       "slack_ts": "1791948310.592279",
-      "status": "pending"
+      "status": "published",
+      "published": "2026-10-14",
+      "live_url": "https://rohithhn.github.io/moneyos-site/blog/spending-heat-map-overspend-days.html"
     }
   ]
 }
