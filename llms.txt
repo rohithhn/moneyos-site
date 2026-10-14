@@ -1,0 +1,32 @@
+# MoneyOS
+
+> MoneyOS is a free, private expense tracker for iPhone and iPad. You log money by voice, one line of text, payment history screenshots, pasted bank SMS, or CSV and PDF statements. There is no account and no server: data stays on the device, and AI features run on Apple's on-device model.
+
+Key facts:
+- Price: free. Platforms: iOS and iPadOS.
+- App Store: https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497
+- No sign-up, no servers. Optional iCloud sync uses the user's own iCloud account.
+- iPhone apps cannot read SMS (an iOS rule), so MoneyOS uses screenshots, pasted messages and statement imports instead.
+- Contact: growwosmoney@gmail.com
+
+## Pages
+
+- [Home](https://rohithhn.github.io/moneyos-site/): what MoneyOS does
+- [Privacy policy](https://rohithhn.github.io/moneyos-site/privacy.html): what the app does and does not collect
+- [Support](https://rohithhn.github.io/moneyos-site/support.html): common questions and contact
+
+## Guides
+
+- [A spending heat map: find the days you overspend](https://rohithhn.github.io/moneyos-site/blog/spending-heat-map-overspend-days.html): A spending heat map colours each day of the month green or red against your daily pace, so overspending days stand out. Here is how to read it in MoneyOS.
+- [Ask your spending a question with on-device AI](https://rohithhn.github.io/moneyos-site/blog/ask-your-spending-on-device-ai.html): Ask where your money went or how much you spent on food, and get a plain answer on your iPhone. The numbers come from your own ledger, never from the AI.
+- [How to log expenses by voice, several at once](https://rohithhn.github.io/moneyos-site/blog/log-expenses-by-voice.html): Log expenses by voice on iPhone: say several spends in one sentence, like 200 chai and 1200 petrol, and review each entry before anything is saved.
+- [How to set category budgets for food, fuel and shopping](https://rohithhn.github.io/moneyos-site/blog/category-budgets-food-fuel-shopping.html): Set category budgets for food, fuel and shopping on your iPhone: a monthly or daily limit per category, card limits, and alerts at 80% and 100% of each one.
+- [How to import a password-protected bank statement PDF](https://rohithhn.github.io/moneyos-site/blog/import-bank-statement-pdf.html): Import a password-protected bank statement PDF into an expense tracker on iPhone: unlock it on your phone, review every row, and fix what does not read.
+- [Expense tracker without login: why no-account apps are safer](https://rohithhn.github.io/moneyos-site/blog/expense-tracker-without-login.html): An expense tracker without login keeps your spending on your phone, not on a server. What a no-account app protects, what to check, and the trade-off.
+- [SIPs are not spending: tracking investments separately from expenses](https://rohithhn.github.io/moneyos-site/blog/sip-not-spending.html): SIPs are saving, not spending. How to track SIPs and investments next to your daily expenses without them eating into your budget or spending limit.
+- [How to track EMIs alongside your daily expenses](https://rohithhn.github.io/moneyos-site/blog/track-emi-with-daily-expenses.html): How to track EMIs alongside your daily expenses: list every loan, record each payment, see what is left to pay, and keep your EMI load in a healthy range.
+- [How to work out a safe daily spending limit from your salary](https://rohithhn.github.io/moneyos-site/blog/safe-daily-spending-limit-from-salary.html): Work out a safe daily spending limit from your salary in four simple steps, with a worked example and the formula that keeps it accurate all month.
+- [How to see where your Google Pay and PhonePe money went this month](https://rohithhn.github.io/moneyos-site/blog/google-pay-phonepe-monthly-spending.html): See your Google Pay and PhonePe monthly spending in one place, split by category and compared with last month. A private, step by step method for iPhone.
+- [Why iPhone apps can't read your bank SMS, and the fastest workaround](https://rohithhn.github.io/moneyos-site/blog/why-iphone-apps-cant-read-bank-sms.html): No iPhone app can read your bank SMS, by design. The fastest ways to track spending instead: UPI screenshots, pasted SMS, bank emails and statements.
+- [How to track UPI payments without giving an app your bank login](https://rohithhn.github.io/moneyos-site/blog/track-upi-payments-without-bank-login.html): Track every UPI payment from Google Pay, PhonePe or Paytm without sharing your bank login. Screenshot your payment history and import every row privately on iPhone.
+- [Meet MoneyOS: a private expense tracker for iPhone that never uploads your data](https://rohithhn.github.io/moneyos-site/blog/introducing-moneyos.html): MoneyOS is a free iPhone and iPad expense tracker. Log spends by voice, text, UPI screenshots or statements. No account, no servers, nothing sent to us.
