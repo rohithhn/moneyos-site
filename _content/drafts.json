@@ -141,7 +141,9 @@
    "branch": "blog/stop-surprise-subscription-renewals",
    "preview": "https://claude.ai/artifact/T1FCEWuZh9RVz9mBZHksPa",
    "slack_ts": "1792034777.780369",
-   "status": "pending"
+   "status": "published",
+   "published": "2026-10-15",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/stop-surprise-subscription-renewals.html"
   }
  ]
 }
