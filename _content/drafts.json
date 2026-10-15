@@ -1,138 +1,147 @@
 {
-  "slack_channel": "C0C6FBKS7DL",
-  "owner_slack_user": "U0C6FB9QRHC",
-  "drafts": [
-    {
-      "date": "2026-10-03",
-      "slug": "track-upi-payments-without-bank-login",
-      "title": "How to track UPI payments without giving an app your bank login",
-      "branch": "blog/track-upi-payments-without-bank-login",
-      "preview": "https://claude.ai/artifact/KnT8UR2eRtqUj6CBvsbUs1",
-      "slack_ts": "1791042997.665169",
-      "status": "published",
-      "published": "2026-10-03",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-upi-payments-without-bank-login.html"
-    },
-    {
-      "date": "2026-10-04",
-      "slug": "why-iphone-apps-cant-read-bank-sms",
-      "title": "Why iPhone apps can't read your bank SMS, and the fastest workaround",
-      "branch": "blog/why-iphone-apps-cant-read-bank-sms",
-      "preview": "https://claude.ai/artifact/AnLECmPDzdBSn4tWTtWNv7",
-      "slack_ts": "1791084227.035219",
-      "status": "published",
-      "published": "2026-10-04",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/why-iphone-apps-cant-read-bank-sms.html"
-    },
-    {
-      "date": "2026-10-05",
-      "slug": "google-pay-phonepe-monthly-spending",
-      "title": "How to see where your Google Pay and PhonePe money went this month",
-      "branch": "blog/google-pay-phonepe-monthly-spending",
-      "preview": "https://claude.ai/artifact/NeXvq1UXvU9aZPVcibD1WW",
-      "slack_ts": "1791170783.215249",
-      "status": "published",
-      "published": "2026-10-05",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/google-pay-phonepe-monthly-spending.html"
-    },
-    {
-      "date": "2026-10-06",
-      "slug": "safe-daily-spending-limit-from-salary",
-      "title": "How to work out a safe daily spending limit from your salary",
-      "branch": "blog/safe-daily-spending-limit-from-salary",
-      "preview": "https://claude.ai/artifact/74WRno8qxjHhf3hZcfHjZR",
-      "slack_ts": "1791257053.958829",
-      "status": "published",
-      "published": "2026-10-06",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/safe-daily-spending-limit-from-salary.html"
-    },
-    {
-      "date": "2026-10-07",
-      "slug": "track-emi-with-daily-expenses",
-      "title": "How to track EMIs alongside your daily expenses",
-      "branch": "blog/track-emi-with-daily-expenses",
-      "preview": "https://claude.ai/artifact/HdUZtZ1LEQXQvHpMRQG8br",
-      "slack_ts": "1791343601.915069",
-      "status": "published",
-      "published": "2026-10-07",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-emi-with-daily-expenses.html"
-    },
-    {
-      "date": "2026-10-08",
-      "slug": "sip-not-spending",
-      "title": "SIPs are not spending: tracking investments separately from expenses",
-      "branch": "blog/sip-not-spending",
-      "preview": "https://claude.ai/artifact/DofY5tdVQkjE1uB6cPE2og",
-      "slack_ts": "1791429906.689479",
-      "status": "published",
-      "published": "2026-10-08",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/sip-not-spending.html"
-    },
-    {
-      "date": "2026-10-09",
-      "slug": "expense-tracker-without-login",
-      "title": "Expense tracker without login: why no-account apps are safer",
-      "branch": "blog/expense-tracker-without-login",
-      "preview": "https://claude.ai/artifact/V4jsdkAzomsHKa3PHQd1up",
-      "slack_ts": "1791516373.590149",
-      "status": "published",
-      "published": "2026-10-10",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/expense-tracker-without-login.html"
-    },
-    {
-      "date": "2026-10-10",
-      "slug": "import-bank-statement-pdf",
-      "title": "How to import a password-protected bank statement PDF",
-      "branch": "blog/import-bank-statement-pdf",
-      "preview": "https://claude.ai/artifact/4y8qkrZP6srr8UBk1u3Enq",
-      "slack_ts": "1791602698.575349",
-      "status": "published",
-      "published": "2026-10-10",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/import-bank-statement-pdf.html"
-    },
-    {
-      "date": "2026-10-11",
-      "slug": "category-budgets-food-fuel-shopping",
-      "title": "How to set category budgets for food, fuel and shopping",
-      "branch": "blog/category-budgets-food-fuel-shopping",
-      "preview": "https://claude.ai/artifact/DcHdYLsT5cta7GVKY9U7vs",
-      "slack_ts": "1791689202.393639",
-      "status": "published",
-      "published": "2026-10-11",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/category-budgets-food-fuel-shopping.html"
-    },
-    {
-      "date": "2026-10-12",
-      "slug": "log-expenses-by-voice",
-      "title": "How to log expenses by voice, several at once",
-      "branch": "blog/log-expenses-by-voice",
-      "preview": "https://claude.ai/artifact/P9XzXjyuV2w5iyjiy6zWyQ",
-      "slack_ts": "1791775443.755469",
-      "status": "published",
-      "published": "2026-10-14",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/log-expenses-by-voice.html"
-    },
-    {
-      "date": "2026-10-13",
-      "slug": "ask-your-spending-on-device-ai",
-      "title": "Ask your spending a question with on-device AI",
-      "branch": "blog/ask-your-spending-on-device-ai",
-      "preview": "https://claude.ai/artifact/Ri8VURMTgabCbXh5GwJpa4",
-      "slack_ts": "1791861892.451369",
-      "status": "published",
-      "published": "2026-10-14",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/ask-your-spending-on-device-ai.html"
-    },
-    {
-      "date": "2026-10-14",
-      "slug": "spending-heat-map-overspend-days",
-      "title": "A spending heat map: find the days you overspend",
-      "branch": "blog/spending-heat-map-overspend-days",
-      "preview": "https://claude.ai/artifact/FDqoHxcCsFhQrgmyaSxUT7",
-      "slack_ts": "1791948310.592279",
-      "status": "published",
-      "published": "2026-10-14",
-      "live_url": "https://rohithhn.github.io/moneyos-site/blog/spending-heat-map-overspend-days.html"
-    }
-  ]
+ "slack_channel": "C0C6FBKS7DL",
+ "owner_slack_user": "U0C6FB9QRHC",
+ "drafts": [
+  {
+   "date": "2026-10-03",
+   "slug": "track-upi-payments-without-bank-login",
+   "title": "How to track UPI payments without giving an app your bank login",
+   "branch": "blog/track-upi-payments-without-bank-login",
+   "preview": "https://claude.ai/artifact/KnT8UR2eRtqUj6CBvsbUs1",
+   "slack_ts": "1791042997.665169",
+   "status": "published",
+   "published": "2026-10-03",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-upi-payments-without-bank-login.html"
+  },
+  {
+   "date": "2026-10-04",
+   "slug": "why-iphone-apps-cant-read-bank-sms",
+   "title": "Why iPhone apps can't read your bank SMS, and the fastest workaround",
+   "branch": "blog/why-iphone-apps-cant-read-bank-sms",
+   "preview": "https://claude.ai/artifact/AnLECmPDzdBSn4tWTtWNv7",
+   "slack_ts": "1791084227.035219",
+   "status": "published",
+   "published": "2026-10-04",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/why-iphone-apps-cant-read-bank-sms.html"
+  },
+  {
+   "date": "2026-10-05",
+   "slug": "google-pay-phonepe-monthly-spending",
+   "title": "How to see where your Google Pay and PhonePe money went this month",
+   "branch": "blog/google-pay-phonepe-monthly-spending",
+   "preview": "https://claude.ai/artifact/NeXvq1UXvU9aZPVcibD1WW",
+   "slack_ts": "1791170783.215249",
+   "status": "published",
+   "published": "2026-10-05",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/google-pay-phonepe-monthly-spending.html"
+  },
+  {
+   "date": "2026-10-06",
+   "slug": "safe-daily-spending-limit-from-salary",
+   "title": "How to work out a safe daily spending limit from your salary",
+   "branch": "blog/safe-daily-spending-limit-from-salary",
+   "preview": "https://claude.ai/artifact/74WRno8qxjHhf3hZcfHjZR",
+   "slack_ts": "1791257053.958829",
+   "status": "published",
+   "published": "2026-10-06",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/safe-daily-spending-limit-from-salary.html"
+  },
+  {
+   "date": "2026-10-07",
+   "slug": "track-emi-with-daily-expenses",
+   "title": "How to track EMIs alongside your daily expenses",
+   "branch": "blog/track-emi-with-daily-expenses",
+   "preview": "https://claude.ai/artifact/HdUZtZ1LEQXQvHpMRQG8br",
+   "slack_ts": "1791343601.915069",
+   "status": "published",
+   "published": "2026-10-07",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-emi-with-daily-expenses.html"
+  },
+  {
+   "date": "2026-10-08",
+   "slug": "sip-not-spending",
+   "title": "SIPs are not spending: tracking investments separately from expenses",
+   "branch": "blog/sip-not-spending",
+   "preview": "https://claude.ai/artifact/DofY5tdVQkjE1uB6cPE2og",
+   "slack_ts": "1791429906.689479",
+   "status": "published",
+   "published": "2026-10-08",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/sip-not-spending.html"
+  },
+  {
+   "date": "2026-10-09",
+   "slug": "expense-tracker-without-login",
+   "title": "Expense tracker without login: why no-account apps are safer",
+   "branch": "blog/expense-tracker-without-login",
+   "preview": "https://claude.ai/artifact/V4jsdkAzomsHKa3PHQd1up",
+   "slack_ts": "1791516373.590149",
+   "status": "published",
+   "published": "2026-10-10",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/expense-tracker-without-login.html"
+  },
+  {
+   "date": "2026-10-10",
+   "slug": "import-bank-statement-pdf",
+   "title": "How to import a password-protected bank statement PDF",
+   "branch": "blog/import-bank-statement-pdf",
+   "preview": "https://claude.ai/artifact/4y8qkrZP6srr8UBk1u3Enq",
+   "slack_ts": "1791602698.575349",
+   "status": "published",
+   "published": "2026-10-10",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/import-bank-statement-pdf.html"
+  },
+  {
+   "date": "2026-10-11",
+   "slug": "category-budgets-food-fuel-shopping",
+   "title": "How to set category budgets for food, fuel and shopping",
+   "branch": "blog/category-budgets-food-fuel-shopping",
+   "preview": "https://claude.ai/artifact/DcHdYLsT5cta7GVKY9U7vs",
+   "slack_ts": "1791689202.393639",
+   "status": "published",
+   "published": "2026-10-11",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/category-budgets-food-fuel-shopping.html"
+  },
+  {
+   "date": "2026-10-12",
+   "slug": "log-expenses-by-voice",
+   "title": "How to log expenses by voice, several at once",
+   "branch": "blog/log-expenses-by-voice",
+   "preview": "https://claude.ai/artifact/P9XzXjyuV2w5iyjiy6zWyQ",
+   "slack_ts": "1791775443.755469",
+   "status": "published",
+   "published": "2026-10-14",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/log-expenses-by-voice.html"
+  },
+  {
+   "date": "2026-10-13",
+   "slug": "ask-your-spending-on-device-ai",
+   "title": "Ask your spending a question with on-device AI",
+   "branch": "blog/ask-your-spending-on-device-ai",
+   "preview": "https://claude.ai/artifact/Ri8VURMTgabCbXh5GwJpa4",
+   "slack_ts": "1791861892.451369",
+   "status": "published",
+   "published": "2026-10-14",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/ask-your-spending-on-device-ai.html"
+  },
+  {
+   "date": "2026-10-14",
+   "slug": "spending-heat-map-overspend-days",
+   "title": "A spending heat map: find the days you overspend",
+   "branch": "blog/spending-heat-map-overspend-days",
+   "preview": "https://claude.ai/artifact/FDqoHxcCsFhQrgmyaSxUT7",
+   "slack_ts": "1791948310.592279",
+   "status": "published",
+   "published": "2026-10-14",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/spending-heat-map-overspend-days.html"
+  },
+  {
+   "date": "2026-10-15",
+   "slug": "stop-surprise-subscription-renewals",
+   "title": "How to stop surprise subscription renewals",
+   "branch": "blog/stop-surprise-subscription-renewals",
+   "preview": "https://claude.ai/artifact/T1FCEWuZh9RVz9mBZHksPa",
+   "slack_ts": "1792034777.780369",
+   "status": "pending"
+  }
+ ]
 }
