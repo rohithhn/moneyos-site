@@ -18,6 +18,7 @@ Key facts:
 ## Guides
 
 - [How to stop surprise subscription renewals](https://rohithhn.github.io/moneyos-site/blog/stop-surprise-subscription-renewals.html): Track subscriptions in one list with renewal days and a monthly total, so renewals stop surprising you. How to find, track and cancel the ones you skip.
+- [How to track cash expenses when everything else is UPI](https://rohithhn.github.io/moneyos-site/blog/track-cash-expenses.html): Cash leaves no SMS and no app history, so it vanishes from your budget. How to log cash in seconds, keep it apart from UPI and card, and avoid double counting.
 - [A spending heat map: find the days you overspend](https://rohithhn.github.io/moneyos-site/blog/spending-heat-map-overspend-days.html): A spending heat map colours each day of the month green or red against your daily pace, so overspending days stand out. Here is how to read it in MoneyOS.
 - [Ask your spending a question with on-device AI](https://rohithhn.github.io/moneyos-site/blog/ask-your-spending-on-device-ai.html): Ask where your money went or how much you spent on food, and get a plain answer on your iPhone. The numbers come from your own ledger, never from the AI.
 - [How to log expenses by voice, several at once](https://rohithhn.github.io/moneyos-site/blog/log-expenses-by-voice.html): Log expenses by voice on iPhone: say several spends in one sentence, like 200 chai and 1200 petrol, and review each entry before anything is saved.

@@ -152,7 +152,9 @@
    "branch": "blog/track-cash-expenses",
    "preview": "https://claude.ai/artifact/KzA5Qdi14HfVCC5oTx6WLJ",
    "slack_ts": "1792121072.635149",
-   "status": "pending"
+   "status": "published",
+   "published": "2026-10-16",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-cash-expenses.html"
   }
  ]
 }

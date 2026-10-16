@@ -19,7 +19,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 11 | published | Ask your spending a question: on-device AI for personal finance | ai expense tracker private | Apple Intelligence Ask, on device |
 | 12 | published | A spending heat map: find the days you overspend | spending heat map | Month heat map, under/over pace |
 | 13 | published | How to stop surprise subscription renewals | track subscriptions india | Subscriptions tracking |
-| 14 | drafted | Tracking cash spending when everything else is UPI | track cash expenses | Cash payment mode, quick entry |
+| 14 | published | Tracking cash spending when everything else is UPI | track cash expenses | Cash payment mode, quick entry |
 | 15 | todo | Separate family and business expenses on one iPhone | separate personal business expenses app | Personal, Family, Business ledgers |
 | 16 | todo | How to back up your expense data on iPhone | backup expense tracker data iphone | Encrypted backups, Files/iCloud Drive folder, CSV/JSON export |
 | 17 | todo | Tracking expenses in another currency when you travel | expense tracker multiple currencies | 39 currencies, any symbol typed |
