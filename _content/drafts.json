@@ -144,6 +144,15 @@
    "status": "published",
    "published": "2026-10-15",
    "live_url": "https://rohithhn.github.io/moneyos-site/blog/stop-surprise-subscription-renewals.html"
+  },
+  {
+   "date": "2026-10-16",
+   "slug": "track-cash-expenses",
+   "title": "How to track cash expenses when everything else is UPI",
+   "branch": "blog/track-cash-expenses",
+   "preview": "https://claude.ai/artifact/KzA5Qdi14HfVCC5oTx6WLJ",
+   "slack_ts": "1792121072.635149",
+   "status": "pending"
   }
  ]
 }
