@@ -163,7 +163,9 @@
    "branch": "blog/separate-personal-business-expenses",
    "preview": "https://claude.ai/artifact/KGzdjbtHj7nPg61okimLG8",
    "slack_ts": "1792207597.165789",
-   "status": "pending"
+   "status": "published",
+   "published": "2026-10-17",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/separate-personal-business-expenses.html"
   }
  ]
 }
