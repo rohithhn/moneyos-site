@@ -155,6 +155,15 @@
    "status": "published",
    "published": "2026-10-16",
    "live_url": "https://rohithhn.github.io/moneyos-site/blog/track-cash-expenses.html"
+  },
+  {
+   "date": "2026-10-17",
+   "slug": "separate-personal-business-expenses",
+   "title": "How to separate personal and business expenses on one iPhone",
+   "branch": "blog/separate-personal-business-expenses",
+   "preview": "https://claude.ai/artifact/KGzdjbtHj7nPg61okimLG8",
+   "slack_ts": "1792207597.165789",
+   "status": "pending"
   }
  ]
 }
