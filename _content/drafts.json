@@ -166,6 +166,15 @@
    "status": "published",
    "published": "2026-10-17",
    "live_url": "https://rohithhn.github.io/moneyos-site/blog/separate-personal-business-expenses.html"
+  },
+  {
+   "date": "2026-10-18",
+   "slug": "backup-expense-data-iphone",
+   "title": "How to back up your expense data on iPhone",
+   "branch": "blog/backup-expense-data-iphone",
+   "preview": "https://claude.ai/artifact/K1qackq4VfY4pYV1jo3wCa",
+   "slack_ts": "1792293913.969409",
+   "status": "pending"
   }
  ]
 }
