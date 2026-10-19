@@ -175,6 +175,15 @@
    "preview": "https://claude.ai/artifact/K1qackq4VfY4pYV1jo3wCa",
    "slack_ts": "1792293913.969409",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-19",
+   "slug": "track-expenses-another-currency-travel",
+   "title": "Tracking expenses in another currency when you travel",
+   "branch": "blog/track-expenses-another-currency-travel",
+   "preview": "https://claude.ai/artifact/Gu7fMgmTWtfD4ieZKNgiGd",
+   "slack_ts": "1792380430.040769",
+   "status": "pending"
   }
  ]
 }

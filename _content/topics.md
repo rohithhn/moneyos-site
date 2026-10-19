@@ -22,7 +22,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 14 | published | Tracking cash spending when everything else is UPI | track cash expenses | Cash payment mode, quick entry |
 | 15 | published | Separate family and business expenses on one iPhone | separate personal business expenses app | Personal, Family, Business ledgers |
 | 16 | drafted | How to back up your expense data on iPhone | backup expense tracker data iphone | Encrypted backups, Files/iCloud Drive folder, CSV/JSON export |
-| 17 | todo | Tracking expenses in another currency when you travel | expense tracker multiple currencies | 39 currencies, any symbol typed |
+| 17 | drafted | Tracking expenses in another currency when you travel | expense tracker multiple currencies | 39 currencies, any symbol typed |
 | 18 | todo | See your monthly budget on the Lock Screen | budget widget lock screen iphone | Live Activity, Dynamic Island, widgets |
 | 19 | todo | A 10-minute monthly money review | monthly budget review | Stats verdict, category movers, Money Score |
 | 20 | todo | Net worth tracking for beginners | how to track net worth india | Net worth, goals |
