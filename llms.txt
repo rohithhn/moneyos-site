@@ -17,6 +17,9 @@ Key facts:
 
 ## Guides
 
+- [See your monthly budget on your iPhone Lock Screen](https://rohithhn.github.io/moneyos-site/blog/budget-widget-lock-screen-iphone.html): Put this month's spending and your budget on the iPhone Lock Screen with MoneyOS widgets and a Live Activity. How to set it up, and how to hide the amounts.
+- [Tracking expenses in another currency when you travel](https://rohithhn.github.io/moneyos-site/blog/track-expenses-another-currency-travel.html): MoneyOS keeps your money in one currency you pick from 39. How to log a trip abroad without mixing currencies, group it with a tag, and switch if you move.
+- [How to back up your expense data on iPhone](https://rohithhn.github.io/moneyos-site/blog/backup-expense-data-iphone.html): With no account, your spending history lives only on your iPhone. How MoneyOS backs it up daily, keeps a copy that survives a reinstall, and restores it.
 - [How to stop surprise subscription renewals](https://rohithhn.github.io/moneyos-site/blog/stop-surprise-subscription-renewals.html): Track subscriptions in one list with renewal days and a monthly total, so renewals stop surprising you. How to find, track and cancel the ones you skip.
 - [How to track cash expenses when everything else is UPI](https://rohithhn.github.io/moneyos-site/blog/track-cash-expenses.html): Cash leaves no SMS and no app history, so it vanishes from your budget. How to log cash in seconds, keep it apart from UPI and card, and avoid double counting.
 - [How to separate personal and business expenses on one iPhone](https://rohithhn.github.io/moneyos-site/blog/separate-personal-business-expenses.html): One total for home, family and work hides what each one costs. How to keep three separate expense ledgers on one iPhone, with no second app or account.

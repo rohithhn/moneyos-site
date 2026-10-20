@@ -174,7 +174,7 @@
    "branch": "blog/backup-expense-data-iphone",
    "preview": "https://claude.ai/artifact/K1qackq4VfY4pYV1jo3wCa",
    "slack_ts": "1792293913.969409",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-19",
@@ -183,7 +183,7 @@
    "branch": "blog/track-expenses-another-currency-travel",
    "preview": "https://claude.ai/artifact/Gu7fMgmTWtfD4ieZKNgiGd",
    "slack_ts": "1792380430.040769",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-20",
@@ -192,7 +192,7 @@
    "branch": "blog/budget-widget-lock-screen-iphone",
    "preview": "https://claude.ai/artifact/AFU9jMb7NmqWdzdtQmZcGR",
    "slack_ts": "1792466715.365479",
-   "status": "pending"
+   "status": "published"
   }
  ]
 }
