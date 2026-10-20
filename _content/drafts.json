@@ -184,6 +184,15 @@
    "preview": "https://claude.ai/artifact/Gu7fMgmTWtfD4ieZKNgiGd",
    "slack_ts": "1792380430.040769",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-20",
+   "slug": "budget-widget-lock-screen-iphone",
+   "title": "See your monthly budget on your iPhone Lock Screen",
+   "branch": "blog/budget-widget-lock-screen-iphone",
+   "preview": "https://claude.ai/artifact/AFU9jMb7NmqWdzdtQmZcGR",
+   "slack_ts": "1792466715.365479",
+   "status": "pending"
   }
  ]
 }
