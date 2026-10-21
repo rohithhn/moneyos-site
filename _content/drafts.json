@@ -193,6 +193,15 @@
    "preview": "https://claude.ai/artifact/AFU9jMb7NmqWdzdtQmZcGR",
    "slack_ts": "1792466715.365479",
    "status": "published"
+  },
+  {
+   "date": "2026-10-21",
+   "slug": "monthly-budget-review",
+   "title": "Monthly budget review: a 10-minute routine on iPhone",
+   "branch": "blog/monthly-budget-review",
+   "preview": "https://claude.ai/artifact/Xvqze7cxNou9jJ7yWjX9Do",
+   "slack_ts": "1792553305.277889",
+   "status": "pending"
   }
  ]
 }
