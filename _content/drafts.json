@@ -202,6 +202,15 @@
    "preview": "https://claude.ai/artifact/Xvqze7cxNou9jJ7yWjX9Do",
    "slack_ts": "1792553305.277889",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-22",
+   "slug": "how-to-track-net-worth",
+   "title": "How to track your net worth: a beginner's guide",
+   "branch": "blog/how-to-track-net-worth",
+   "preview": "https://claude.ai/artifact/Tv4WNZcGFN5MnF1tCLLweW",
+   "slack_ts": "1792639516.273279",
+   "status": "pending"
   }
  ]
 }
