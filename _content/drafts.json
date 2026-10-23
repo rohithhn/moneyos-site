@@ -211,6 +211,15 @@
    "preview": "https://claude.ai/artifact/Tv4WNZcGFN5MnF1tCLLweW",
    "slack_ts": "1792639516.273279",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-23",
+   "slug": "what-is-fire-number",
+   "title": "What is FIRE, and how do you estimate your number?",
+   "branch": "blog/what-is-fire-number",
+   "preview": "https://claude.ai/artifact/MaPspgvp7MnXQSjAXaPC4W",
+   "slack_ts": "1792725887.006339",
+   "status": "pending"
   }
  ]
 }

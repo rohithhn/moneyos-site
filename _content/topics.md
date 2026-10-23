@@ -26,7 +26,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 18 | published | See your monthly budget on the Lock Screen | budget widget lock screen iphone | Live Activity, Dynamic Island, widgets |
 | 19 | drafted | A 10-minute monthly money review | monthly budget review | Stats verdict, category movers, Money Score |
 | 20 | drafted | Net worth tracking for beginners | how to track net worth india | Net worth, goals |
-| 21 | todo | What is FIRE, and how to estimate your number | fire calculator india | FIRE calculator |
+| 21 | drafted | What is FIRE, and how to estimate your number | fire calculator india | FIRE calculator |
 | 22 | todo | Salary day budgeting: plan the month before it starts | salary budget plan | Income and salary preset, monthly limit |
 | 23 | todo | Is it safe to share bank access with money apps? | is it safe to link bank account to app | No bank credentials needed |
 | 24 | todo | Spot duplicate transactions before they skew your budget | duplicate transactions expense tracker | Review list flags likely repeats |
