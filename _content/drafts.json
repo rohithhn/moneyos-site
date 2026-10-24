@@ -220,6 +220,15 @@
    "preview": "https://claude.ai/artifact/MaPspgvp7MnXQSjAXaPC4W",
    "slack_ts": "1792725887.006339",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-24",
+   "slug": "salary-day-budget-plan",
+   "title": "Salary budget plan: plan the month before it starts",
+   "branch": "blog/salary-day-budget-plan",
+   "preview": "https://claude.ai/artifact/9mMZWa7r5uFL7xXH7CNWSP",
+   "slack_ts": "1792812348.387929",
+   "status": "pending"
   }
  ]
 }
