@@ -229,6 +229,15 @@
    "preview": "https://claude.ai/artifact/9mMZWa7r5uFL7xXH7CNWSP",
    "slack_ts": "1792812348.387929",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-25",
+   "slug": "is-it-safe-to-link-bank-account-to-app",
+   "title": "Is It Safe to Link Your Bank Account to a Money App?",
+   "branch": "blog/is-it-safe-to-link-bank-account-to-app",
+   "preview": "https://claude.ai/artifact/HGNgjVUwvNyoJ8Nvg23bB9",
+   "slack_ts": "1792898752.868879",
+   "status": "pending"
   }
  ]
 }
