@@ -238,6 +238,15 @@
    "preview": "https://claude.ai/artifact/HGNgjVUwvNyoJ8Nvg23bB9",
    "slack_ts": "1792898752.868879",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-26",
+   "slug": "duplicate-transactions-expense-tracker",
+   "title": "Duplicate Transactions: Spot Them Before They Skew Your Budget",
+   "branch": "blog/duplicate-transactions-expense-tracker",
+   "preview": "https://claude.ai/artifact/V2Xwsq9jmNKvmxvVtGk4KV",
+   "slack_ts": "1792985119.124199",
+   "status": "pending"
   }
  ]
 }
