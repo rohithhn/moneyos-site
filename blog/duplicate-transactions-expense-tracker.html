@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js): website visit counts only. The MoneyOS app itself sends nothing. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WFNCXSXRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3WFNCXSXRG');
+</script>
+<title>Duplicate Transactions: Spot Them Before They Skew Your Budget</title>
+<meta name="description" content="Why duplicate transactions creep into an expense tracker, how they inflate your spending, and how MoneyOS flags likely repeats before and after you import.">
+<meta name="keywords" content="duplicate transactions expense tracker, duplicate expenses, remove duplicate transactions, double counted expenses, expense tracker duplicates, import duplicates">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="MoneyOS">
+<meta name="theme-color" content="#000000">
+<meta name="apple-itunes-app" content="app-id=6796755497">
+
+<link rel="canonical" href="https://rohithhn.github.io/moneyos-site/blog/duplicate-transactions-expense-tracker.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://rohithhn.github.io/moneyos-site/blog/duplicate-transactions-expense-tracker.html">
+<meta property="og:site_name" content="MoneyOS">
+<meta property="og:title" content="Duplicate transactions: spot them before they skew your budget">
+<meta property="og:description" content="How duplicates creep in, what they do to your totals, and how MoneyOS flags likely repeats before and after you import.">
+<meta property="og:image" content="https://rohithhn.github.io/moneyos-site/img/blog/og-duplicate-transactions-expense-tracker.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MoneyOS Review import list with five payments ticked and a second Swiggy payment of 340 rupees unticked and tagged duplicate">
+<meta property="article:published_time" content="2026-10-26">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://rohithhn.github.io/moneyos-site/img/blog/og-duplicate-transactions-expense-tracker.jpg">
+<meta name="twitter:title" content="Duplicate transactions: spot them before they skew your budget">
+<meta name="twitter:description" content="How duplicates creep in, and how MoneyOS flags likely repeats.">
+
+<link rel="icon" type="image/png" href="../img/favicon.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": "https://rohithhn.github.io/moneyos-site/blog/duplicate-transactions-expense-tracker.html",
+      "headline": "Duplicate Transactions: Spot Them Before They Skew Your Budget",
+      "description": "Why duplicate transactions creep into an expense tracker, how they inflate your spending, and how MoneyOS flags likely repeats before and after you import.",
+      "datePublished": "2026-10-26",
+      "dateModified": "2026-10-26",
+      "inLanguage": "en-IN",
+      "image": [
+        "https://rohithhn.github.io/moneyos-site/img/blog/og-duplicate-transactions-expense-tracker.jpg",
+        "https://rohithhn.github.io/moneyos-site/img/blog/screen-review-import.webp",
+        "https://rohithhn.github.io/moneyos-site/img/blog/card-duplicate-resolve.webp"
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "MoneyOS"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MoneyOS",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://rohithhn.github.io/moneyos-site/img/icon-512.png"
+        }
+      },
+      "keywords": "duplicate transactions expense tracker, duplicate expenses, remove duplicate transactions, double counted expenses, expense tracker duplicates, import duplicates"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to catch duplicate transactions when you import",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Import as usual",
+          "text": "Bring in screenshots, a statement, a CSV or a pasted SMS. Everything lands in the Review import list before anything is saved."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Read the header note",
+          "text": "If several screenshots overlapped, the list says how many duplicate rows across screenshots were excluded."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Check the duplicate? rows",
+          "text": "Rows that match something you already logged are tagged duplicate? and left unticked. Tick one back if it really is a second payment."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Answer any Duplicate? notice",
+          "text": "If a row looks like an EMI, SIP or subscription you already have this month, pick Keep this, Keep existing or Keep both."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Clear the amber signs later",
+          "text": "On Home, tap the amber warning sign on a flagged row, then choose Delete this transaction or Not a duplicate."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do I have duplicate transactions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Usually because the same payment reached your tracker twice: typed in on the day and then imported from a statement, caught in two overlapping screenshots, or added once as a recurring payment and again from the bank."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do duplicates affect my budget?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every duplicate counts as spending. Your monthly total, category totals and limits all go up, so a limit can warn you at 80% when you have really spent less."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does MoneyOS find duplicates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It compares direction, amount, merchant name and date. Imports are checked against each other and against what you already logged, and the whole ledger is checked again for repeats within the same month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will MoneyOS delete a duplicate on its own?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only repeated rows across overlapping screenshots in one import are dropped, and the review list says how many. Everything else is flagged for you to decide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if two identical payments are both real?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tick the row back in the review list, choose Keep both, or tap Not a duplicate. MoneyOS remembers Not a duplicate and will not flag that entry again."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is MoneyOS free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The whole app is free, with no subscription, no ads and no in-app purchases. There is no account and no bank login, and your data stays on your iPhone."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://rohithhn.github.io/moneyos-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://rohithhn.github.io/moneyos-site/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Duplicate Transactions: Spot Them Before They Skew Your Budget",
+          "item": "https://rohithhn.github.io/moneyos-site/blog/duplicate-transactions-expense-tracker.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="blog">
+<header class="site blog-head">
+  <a class="brand" href="../index.html"><img src="../img/icon-512.png" alt="" width="34" height="34">MoneyOS</a>
+  <nav><a href="index.html" aria-current="page">Blog</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
+</header>
+
+<main>
+  <section class="post-hero">
+    <div class="post-hero-copy">
+      <p class="crumbs"><a href="../index.html">Home</a> / <a href="index.html">Blog</a> / Guide</p>
+      <p class="kicker">Guide · 26 October 2026 · 5 min read</p>
+      <h1>Duplicate transactions: spot them before they skew your budget</h1>
+      <p class="lede">You typed in a ₹340 food order the moment you paid. That evening you imported
+      your UPI screenshots, and there it is again. One duplicate is easy to miss, and a few of them quietly push your spending
+      up, trip your limits early and make a good month look bad. Here is why duplicates happen, how to
+      spot them, and how MoneyOS flags them before and after you import.</p>
+      <a class="store-link" href="https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497" target="_blank" rel="noopener">
+        <svg class="as" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient></defs><rect width="24" height="24" rx="5.5" fill="url(#asg)"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        Available for iPhone and iPad <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="post-hero-phone">
+      <img src="../img/blog/screen-review-import.webp" width="580" height="1258" fetchpriority="high"
+           alt="MoneyOS Review import list with five payments ticked and a second Swiggy payment of 340 rupees unticked and tagged duplicate">
+    </figure>
+  </section>
+
+  <section class="tldr" aria-label="Summary">
+    <h2>In short</h2>
+    <dl class="tldr-grid">
+      <div><dt>Cause</dt><dd>The same payment arrives twice: typed, then imported.</dd></div>
+      <div><dt>Effect</dt><dd>Spending, categories and limits all read too high.</dd></div>
+      <div><dt>Spot it</dt><dd>Same amount, same merchant, close dates.</dd></div>
+      <div><dt>MoneyOS</dt><dd>Flags likely repeats. You decide what stays.</dd></div>
+    </dl>
+  </section>
+
+  <div class="post-layout">
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <ol>
+        <li><a href="#why">Why duplicates happen</a></li>
+        <li><a href="#cost">What they do to your budget</a></li>
+        <li><a href="#spot">How to spot one</a></li>
+        <li><a href="#how-to">Catching them on import</a></li>
+        <li><a href="#later">Finding them later</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </nav>
+
+    <article class="post">
+      <h2 id="why">Why do duplicate transactions happen?</h2>
+      <p class="answer"><strong>Because the same payment reaches your tracker by two routes. The most
+      common one is logging a payment on the day and importing it again later from your bank.</strong></p>
+      <p>Other routes are just as ordinary. Two payment history screenshots overlap, so the last rows of one
+      are the first rows of the next. A bank SMS gets pasted twice. A subscription or EMI is added
+      automatically as a recurring payment, and then shows up again in your statement, sometimes for a
+      slightly different amount and under a longer name, such as "HOSTINGER PTE LTD" instead of
+      "Hostinger".</p>
+
+      <h2 id="cost">How do duplicates skew your budget?</h2>
+      <p class="answer"><strong>Every duplicate counts as spending, so your monthly total, your category
+      totals and your limits all read higher than the truth.</strong></p>
+      <p>Three ₹340 food orders logged twice add ₹1,020 to Food that you never spent. A ₹2,478 subscription
+      counted twice adds another ₹2,478. That is enough to move a limit from 70% to past 80% and set off a
+      warning, or to make a category look like a problem when it is not. Because the error only ever adds,
+      duplicates make every month look worse than it was.</p>
+
+      <h2 id="spot">How do you spot a duplicate transaction?</h2>
+      <p class="answer"><strong>Look for the same amount, paid to the same merchant, on the same or the next
+      day. Then check whether you really paid twice.</strong></p>
+      <p>Merchant names rarely match exactly. The same shop can appear in short form in one place and as a
+      full company name in another, and statement amounts can differ by a few rupees from what you typed.
+      Not every repeat is a mistake, either: two cups of coffee on the same afternoon are two real payments.
+      When in doubt, compare against your bank statement or your UPI app before you delete anything.</p>
+
+      <h2 id="how-to">How does MoneyOS catch duplicates when you import?</h2>
+      <div class="split-fig">
+        <div>
+          <p class="answer"><strong>Every import lands in a review list first. Likely repeats are flagged and
+          left unticked, so nothing is saved twice unless you choose it.</strong> Five steps:</p>
+          <ol class="ways">
+            <li><strong>Import as usual.</strong> Bring in screenshots, a statement, a CSV or a pasted SMS. Everything lands in the Review import list before anything is saved.</li>
+            <li><strong>Read the header note.</strong> If several screenshots overlapped, the list says how many duplicate rows across screenshots were excluded.</li>
+            <li><strong>Check the duplicate? rows.</strong> Rows that match something you already logged are tagged duplicate? and left unticked. Tick one back if it really is a second payment.</li>
+            <li><strong>Answer any Duplicate? notice.</strong> If a row looks like an EMI, SIP or subscription you already have this month, pick Keep this, Keep existing or Keep both.</li>
+            <li><strong>Clear the amber signs later.</strong> On Home, tap the amber warning sign on a flagged row, then choose Delete this transaction or Not a duplicate.</li>
+          </ol>
+          <p>A row is tagged duplicate? when it moves money in the same direction, for exactly the same
+          amount, within a day of something you already logged, and the merchant names look alike. Read how
+          to <a href="track-upi-payments-without-bank-login.html">import UPI payments from screenshots</a>
+          or <a href="import-bank-statement-pdf.html">a bank statement PDF</a>.</p>
+        </div>
+        <figure class="phone-fig">
+          <img src="../img/blog/screen-review-import.webp" width="580" height="1258" loading="lazy"
+               alt="MoneyOS Review import list: Swiggy, Uber, Zepto, Airtel and BigBasket ticked, and a second Swiggy payment of 340 rupees on 30 September unticked with a duplicate? tag">
+          <figcaption>A likely repeat arrives unticked, tagged duplicate?.</figcaption>
+        </figure>
+      </div>
+      <p>Overlapping screenshots are the one case MoneyOS handles for you. When the same row appears in two
+      screenshots of one import, with the same amount, a similar merchant and the same day, only one copy is
+      kept and the list says how many were excluded. If you really paid the same merchant the same amount
+      twice that day, check that count and add the second payment yourself.</p>
+      <p>Recurring payments get a wider check. If an imported row looks like an EMI, SIP or subscription you
+      already have that month, within 2% or ₹5 of the amount, whichever is wider, the row asks whether it is
+      a duplicate. Keep this replaces the existing entry with the imported one, Keep existing skips the
+      import, and Keep both saves the two. More on <a href="stop-surprise-subscription-renewals.html">tracking
+      subscriptions</a>.</p>
+
+      <h2 id="later">How do I find duplicates already in my ledger?</h2>
+      <p class="answer"><strong>Look for the amber warning sign. MoneyOS checks your saved transactions for
+      likely repeats and marks them on Home and in the day and category views.</strong></p>
+      <p>Two entries are marked when they move money in the same direction, in the same calendar month,
+      with similar names and amounts within that same 2% or ₹5 margin. Tap the sign to see which entry it
+      matches, then choose Delete this transaction or Not a duplicate. Not a duplicate is remembered, so the
+      same entry is never flagged again.</p>
+      <figure class="phone-fig" style="max-width:440px;margin:24px auto">
+        <img src="../img/blog/card-duplicate-resolve.webp" width="880" height="796" loading="lazy"
+             alt="Two MoneyOS entries, Hostinger at 2,478 rupees on 3 July and HOSTINGER PTE LTD at 2,476 rupees 82 paise on 10 July, each with an amber warning sign, above a Possible duplicate dialog offering Delete this transaction, Not a duplicate and Cancel">
+        <figcaption>Tap the amber sign to resolve a likely repeat.</figcaption>
+      </figure>
+      <p>All of this matching happens on your iPhone, with no account and no bank login. See
+      <a href="../privacy.html">what stays on your phone</a>.</p>
+
+      <h2 id="faq">Frequently asked questions</h2>
+      <div class="faq">
+        <details open><summary>Why do I have duplicate transactions?</summary>
+          <p>Usually because the same payment reached your tracker twice: typed in on the day and then imported from a statement, caught in two overlapping screenshots, or added once as a recurring payment and again from the bank.</p></details>
+        <details><summary>How do duplicates affect my budget?</summary>
+          <p>Every duplicate counts as spending. Your monthly total, category totals and limits all go up, so a limit can warn you at 80% when you have really spent less.</p></details>
+        <details><summary>How does MoneyOS find duplicates?</summary>
+          <p>It compares direction, amount, merchant name and date. Imports are checked against each other and against what you already logged, and the whole ledger is checked again for repeats within the same month.</p></details>
+        <details><summary>Will MoneyOS delete a duplicate on its own?</summary>
+          <p>Only repeated rows across overlapping screenshots in one import are dropped, and the review list says how many. Everything else is flagged for you to decide.</p></details>
+        <details><summary>What if two identical payments are both real?</summary>
+          <p>Tick the row back in the review list, choose Keep both, or tap Not a duplicate. MoneyOS remembers Not a duplicate and will not flag that entry again.</p></details>
+        <details><summary>Is MoneyOS free?</summary>
+          <p>Yes. The whole app is free, with no subscription, no ads and no in-app purchases. There is no account and no bank login, and your data stays on your iPhone.</p></details>
+      </div>
+    </article>
+  </div>
+
+  <section class="cta-box">
+    <div class="cta-copy">
+      <img src="../img/icon-512.png" alt="MoneyOS app icon" width="72" height="72" loading="lazy">
+      <h2>Count every payment once.</h2>
+      <p>MoneyOS is free, with no account and no bank login. Likely repeats are flagged, and you decide what stays.</p>
+      <a class="store-link" href="https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497" target="_blank" rel="noopener">
+        <svg class="as" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient></defs><rect width="24" height="24" rx="5.5" fill="url(#asg)"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        Available for iPhone and iPad <span aria-hidden="true">→</span></a>
+      <p class="small">Questions? <a href="../support.html">Write to the person who built it.</a></p>
+    </div>
+    <img class="cta-phone" src="../img/blog/screen-review-import.webp" width="580" height="1258" loading="lazy" alt="">
+  </section>
+</main>
+
+<footer class="blog-foot">
+  <a href="../index.html">Home</a><a href="index.html">Blog</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a><span>© 2026 MoneyOS</span>
+</footer>
+</body>
+</html>
