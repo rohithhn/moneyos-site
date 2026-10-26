@@ -201,7 +201,7 @@
    "branch": "blog/monthly-budget-review",
    "preview": "https://claude.ai/artifact/Xvqze7cxNou9jJ7yWjX9Do",
    "slack_ts": "1792553305.277889",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-22",
@@ -210,7 +210,7 @@
    "branch": "blog/how-to-track-net-worth",
    "preview": "https://claude.ai/artifact/Tv4WNZcGFN5MnF1tCLLweW",
    "slack_ts": "1792639516.273279",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-23",
@@ -219,7 +219,7 @@
    "branch": "blog/what-is-fire-number",
    "preview": "https://claude.ai/artifact/MaPspgvp7MnXQSjAXaPC4W",
    "slack_ts": "1792725887.006339",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-24",
@@ -228,7 +228,7 @@
    "branch": "blog/salary-day-budget-plan",
    "preview": "https://claude.ai/artifact/9mMZWa7r5uFL7xXH7CNWSP",
    "slack_ts": "1792812348.387929",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-25",
@@ -237,7 +237,7 @@
    "branch": "blog/is-it-safe-to-link-bank-account-to-app",
    "preview": "https://claude.ai/artifact/HGNgjVUwvNyoJ8Nvg23bB9",
    "slack_ts": "1792898752.868879",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-26",
@@ -246,7 +246,7 @@
    "branch": "blog/duplicate-transactions-expense-tracker",
    "preview": "https://claude.ai/artifact/V2Xwsq9jmNKvmxvVtGk4KV",
    "slack_ts": "1792985119.124199",
-   "status": "pending"
+   "status": "published"
   }
  ]
 }

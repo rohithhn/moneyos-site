@@ -24,10 +24,10 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 16 | published | How to back up your expense data on iPhone | backup expense tracker data iphone | Encrypted backups, Files/iCloud Drive folder, CSV/JSON export |
 | 17 | published | Tracking expenses in another currency when you travel | expense tracker multiple currencies | 39 currencies, any symbol typed |
 | 18 | published | See your monthly budget on the Lock Screen | budget widget lock screen iphone | Live Activity, Dynamic Island, widgets |
-| 19 | drafted | A 10-minute monthly money review | monthly budget review | Stats verdict, category movers, Money Score |
-| 20 | drafted | Net worth tracking for beginners | how to track net worth india | Net worth, goals |
-| 21 | drafted | What is FIRE, and how to estimate your number | fire calculator india | FIRE calculator |
-| 22 | drafted | Salary day budgeting: plan the month before it starts | salary budget plan | Income and salary preset, monthly limit |
-| 23 | drafted | Is it safe to share bank access with money apps? | is it safe to link bank account to app | No bank credentials needed |
-| 24 | drafted | Spot duplicate transactions before they skew your budget | duplicate transactions expense tracker | Review list flags likely repeats |
+| 19 | published | A 10-minute monthly money review | monthly budget review | Stats verdict, category movers, Money Score |
+| 20 | published | Net worth tracking for beginners | how to track net worth india | Net worth, goals |
+| 21 | published | What is FIRE, and how to estimate your number | fire calculator india | FIRE calculator |
+| 22 | published | Salary day budgeting: plan the month before it starts | salary budget plan | Income and salary preset, monthly limit |
+| 23 | published | Is it safe to share bank access with money apps? | is it safe to link bank account to app | No bank credentials needed |
+| 24 | published | Spot duplicate transactions before they skew your budget | duplicate transactions expense tracker | Review list flags likely repeats |
 | 25 | todo | Track expenses on iPad and iPhone together, privately | expense tracker ipad iphone sync | Optional iCloud sync via your own iCloud |
