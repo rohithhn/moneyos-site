@@ -247,6 +247,15 @@
    "preview": "https://claude.ai/artifact/V2Xwsq9jmNKvmxvVtGk4KV",
    "slack_ts": "1792985119.124199",
    "status": "published"
+  },
+  {
+   "date": "2026-10-27",
+   "slug": "expense-tracker-ipad-iphone-sync",
+   "title": "Expense Tracker on iPad and iPhone, Synced Privately",
+   "branch": "blog/expense-tracker-ipad-iphone-sync",
+   "preview": "https://claude.ai/artifact/AxNUhCtSjESzCtp5igcPrn",
+   "slack_ts": "1793071517.433069",
+   "status": "pending"
   }
  ]
 }
