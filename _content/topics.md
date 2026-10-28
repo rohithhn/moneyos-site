@@ -31,3 +31,13 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 23 | published | Is it safe to share bank access with money apps? | is it safe to link bank account to app | No bank credentials needed |
 | 24 | published | Spot duplicate transactions before they skew your budget | duplicate transactions expense tracker | Review list flags likely repeats |
 | 25 | published | Track expenses on iPad and iPhone together, privately | expense tracker ipad iphone sync | Optional iCloud sync via your own iCloud |
+| 26 | todo | Log an expense with Siri, without opening the app | log expense with siri | Siri shortcuts: add expense, spent this month, voice add |
+| 27 | todo | Track spending on each credit card | track credit card spending app | Cards, per-card limits |
+| 28 | todo | What your Money Score means | money score app | Money Score in Stats |
+| 29 | todo | Saving for a goal: a simple tracker | savings goal tracker | Goals |
+| 30 | todo | Export your expenses to Excel or Sheets | export expenses to excel iphone | CSV and JSON export |
+| 31 | todo | Add an expense from a bank email | add expense from email | Share from Mail, paste |
+| 32 | todo | Use tags to see spending that categories hide | expense tracker tags | Tags and payment modes |
+| 33 | todo | Keep monthly bills and rent on your radar | track monthly bills app | EMIs, SIPs and subscriptions |
+| 34 | todo | Add an expense from Control Center | quick add expense iphone | Control Center control that opens Add |
+| 35 | todo | Budgeting in dollars, pounds or dirhams from India | expense tracker usd india | 39 currencies, any symbol typed |
