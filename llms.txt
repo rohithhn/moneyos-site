@@ -17,6 +17,7 @@ Key facts:
 
 ## Guides
 
+- [Track expenses on iPad and iPhone together, privately](https://rohithhn.github.io/moneyos-site/blog/expense-tracker-ipad-iphone-sync.html): Use one expense tracker on iPad and iPhone. How MoneyOS syncs your ledger through your own private iCloud, what syncs, what stays on each device, and setup.
 - [Duplicate transactions: spot them before they skew your budget](https://rohithhn.github.io/moneyos-site/blog/duplicate-transactions-expense-tracker.html): Why duplicate transactions creep into an expense tracker, how they inflate your spending, and how MoneyOS flags likely repeats before and after you import.
 - [Is it safe to link your bank account to a money app?](https://rohithhn.github.io/moneyos-site/blog/is-it-safe-to-link-bank-account-to-app.html): Is it safe to link your bank account to a money app? What each kind of bank access can see, what never to share, and how to track spending without it.
 - [Salary budget plan: plan the month before it starts](https://rohithhn.github.io/moneyos-site/blog/salary-day-budget-plan.html): Make a salary budget plan on pay day: split your take-home into needs, wants and savings, check your EMIs, and set a monthly limit before the spending starts.

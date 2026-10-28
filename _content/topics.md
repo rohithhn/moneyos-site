@@ -30,4 +30,4 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 22 | published | Salary day budgeting: plan the month before it starts | salary budget plan | Income and salary preset, monthly limit |
 | 23 | published | Is it safe to share bank access with money apps? | is it safe to link bank account to app | No bank credentials needed |
 | 24 | published | Spot duplicate transactions before they skew your budget | duplicate transactions expense tracker | Review list flags likely repeats |
-| 25 | drafted | Track expenses on iPad and iPhone together, privately | expense tracker ipad iphone sync | Optional iCloud sync via your own iCloud |
+| 25 | published | Track expenses on iPad and iPhone together, privately | expense tracker ipad iphone sync | Optional iCloud sync via your own iCloud |
