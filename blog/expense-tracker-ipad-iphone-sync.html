@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js): website visit counts only. The MoneyOS app itself sends nothing. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WFNCXSXRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3WFNCXSXRG');
+</script>
+<title>Expense Tracker on iPad and iPhone, Synced Privately</title>
+<meta name="description" content="Use one expense tracker on iPad and iPhone. How MoneyOS syncs your ledger through your own private iCloud, what syncs, what stays on each device, and setup.">
+<meta name="keywords" content="expense tracker ipad iphone sync, budget app iphone ipad sync, expense tracker icloud sync, private expense tracker sync, sync expenses between devices">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="MoneyOS">
+<meta name="theme-color" content="#000000">
+<meta name="apple-itunes-app" content="app-id=6796755497">
+
+<link rel="canonical" href="https://rohithhn.github.io/moneyos-site/blog/expense-tracker-ipad-iphone-sync.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://rohithhn.github.io/moneyos-site/blog/expense-tracker-ipad-iphone-sync.html">
+<meta property="og:site_name" content="MoneyOS">
+<meta property="og:title" content="Track expenses on iPad and iPhone together, privately">
+<meta property="og:description" content="One ledger on iPad and iPhone, synced through your own private iCloud. What syncs, what stays on each device, and how to set it up.">
+<meta property="og:image" content="https://rohithhn.github.io/moneyos-site/img/blog/og-expense-tracker-ipad-iphone-sync.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MoneyOS Settings with iCloud sync turned on, a status of Synced 2 minutes ago, and a note that the ledger syncs through your own private iCloud">
+<meta property="article:published_time" content="2026-10-27">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://rohithhn.github.io/moneyos-site/img/blog/og-expense-tracker-ipad-iphone-sync.jpg">
+<meta name="twitter:title" content="Track expenses on iPad and iPhone together, privately">
+<meta name="twitter:description" content="One ledger on iPad and iPhone, synced through your own private iCloud.">
+
+<link rel="icon" type="image/png" href="../img/favicon.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": "https://rohithhn.github.io/moneyos-site/blog/expense-tracker-ipad-iphone-sync.html",
+      "headline": "Expense Tracker on iPad and iPhone, Synced Privately",
+      "description": "Use one expense tracker on iPad and iPhone. How MoneyOS syncs your ledger through your own private iCloud, what syncs, what stays on each device, and setup.",
+      "datePublished": "2026-10-27",
+      "dateModified": "2026-10-27",
+      "inLanguage": "en-IN",
+      "image": [
+        "https://rohithhn.github.io/moneyos-site/img/blog/og-expense-tracker-ipad-iphone-sync.jpg",
+        "https://rohithhn.github.io/moneyos-site/img/blog/screen-icloud-sync.webp",
+        "https://rohithhn.github.io/moneyos-site/img/blog/card-sync-split.webp"
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "MoneyOS"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MoneyOS",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://rohithhn.github.io/moneyos-site/img/icon-512.png"
+        }
+      },
+      "keywords": "expense tracker ipad iphone sync, budget app iphone ipad sync, expense tracker icloud sync, private expense tracker sync, sync expenses between devices"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to sync MoneyOS between iPad and iPhone",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Use the same Apple Account",
+          "text": "Sign in to iCloud with the same Apple Account on your iPhone and your iPad, and install MoneyOS on both."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Turn on iCloud sync",
+          "text": "On each device, open Settings in MoneyOS and turn on iCloud sync. It is off until you do."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Reopen the app",
+          "text": "Sync starts the next time MoneyOS opens, so close it and open it again. Until then the status reads Turns on next launch."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Watch the status",
+          "text": "The status shows Uploading your ledger while your entries go up, then Synced with the time of the last sync."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Set up per-device settings",
+          "text": "Your salary preset, Net worth extras and custom category names stay on each device. Set them where you need them."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I use MoneyOS on iPad and iPhone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. MoneyOS runs on both iPhone and iPad. Turn on iCloud sync on each device, signed in to the same Apple Account, and both show the same ledger."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the MoneyOS team see my synced data?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your ledger syncs through the private database in your own iCloud account. There is no MoneyOS account or server, and the App Privacy label says Data Not Collected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is iCloud sync on by default?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. iCloud sync is off until you turn it on in Settings, and it starts the next time the app opens. Until then everything stays on the device."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What syncs between my devices?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transactions in every ledger, limits, goals, cards, income, and commitments such as EMIs, SIPs and subscriptions. A few settings, like your salary preset and currency, stay on each device."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is sync the same as a backup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Sync keeps devices the same, so deleting an entry on one deletes it on the other. Keep daily backups on, and pick a backup folder in Files so a copy lives outside the app."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is MoneyOS free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The whole app is free, with no subscription, no ads and no in-app purchases."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://rohithhn.github.io/moneyos-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://rohithhn.github.io/moneyos-site/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Expense Tracker on iPad and iPhone, Synced Privately",
+          "item": "https://rohithhn.github.io/moneyos-site/blog/expense-tracker-ipad-iphone-sync.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="blog">
+<header class="site blog-head">
+  <a class="brand" href="../index.html"><img src="../img/icon-512.png" alt="" width="34" height="34">MoneyOS</a>
+  <nav><a href="index.html" aria-current="page">Blog</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
+</header>
+
+<main>
+  <section class="post-hero">
+    <div class="post-hero-copy">
+      <p class="crumbs"><a href="../index.html">Home</a> / <a href="index.html">Blog</a> / Guide</p>
+      <p class="kicker">Guide · 27 October 2026 · 5 min read</p>
+      <h1>Track expenses on iPad and iPhone together, privately</h1>
+      <p class="lede">Your iPhone is where you log a payment the moment you make it. Your iPad is where you
+      sit down at the end of the month and look at the whole picture. The two only help if they show the
+      same numbers. Here is how to keep one expense tracker on both, synced through your own private
+      iCloud, with no account and no company holding a copy of your spending.</p>
+      <a class="store-link" href="https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497" target="_blank" rel="noopener">
+        <svg class="as" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient></defs><rect width="24" height="24" rx="5.5" fill="url(#asg)"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        Available for iPhone and iPad <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="post-hero-phone">
+      <img src="../img/blog/screen-icloud-sync.webp" width="580" height="1258" fetchpriority="high"
+           alt="MoneyOS Settings with iCloud sync turned on, a status of Synced 2 minutes ago, and a note that the ledger syncs through your own private iCloud">
+    </figure>
+  </section>
+
+  <section class="tldr" aria-label="Summary">
+    <h2>In short</h2>
+    <dl class="tldr-grid">
+      <div><dt>Devices</dt><dd>MoneyOS runs on iPhone and iPad.</dd></div>
+      <div><dt>Sync</dt><dd>Optional, off by default, through your own iCloud.</dd></div>
+      <div><dt>Setup</dt><dd>Turn it on in Settings on both, then reopen.</dd></div>
+      <div><dt>Privacy</dt><dd>No account. We cannot see your ledger.</dd></div>
+    </dl>
+  </section>
+
+  <div class="post-layout">
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <ol>
+        <li><a href="#why">Why use both</a></li>
+        <li><a href="#private">How sync stays private</a></li>
+        <li><a href="#how-to">Setting it up</a></li>
+        <li><a href="#what">What syncs</a></li>
+        <li><a href="#backup">Sync is not a backup</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </nav>
+
+    <article class="post">
+      <h2 id="why">Why track expenses on both iPad and iPhone?</h2>
+      <p class="answer"><strong>Because each is better at a different job: the iPhone for logging a payment
+      on the spot, the iPad for reviewing the month on a bigger screen.</strong></p>
+      <p>Most payments happen with your phone in your hand, so that is where entries go in: a UPI payment,
+      a cash purchase, a screenshot of your payment history. The iPad suits the slower work, such as going
+      through the month's categories, checking limits or importing a bank statement. It also helps when a
+      family shares an iPad at home. All of that only works if both devices show the same ledger.</p>
+
+      <h2 id="private">Can you sync an expense tracker without giving a company your data?</h2>
+      <p class="answer"><strong>Yes. MoneyOS syncs through the private database in your own iCloud account,
+      so your ledger moves between your devices without passing through any server of ours.</strong></p>
+      <p>Many apps sync by sending your data to their own servers, which is why they ask you to create an
+      account. MoneyOS has no account and no server. When you turn on iCloud sync, your ledger goes to your
+      private iCloud, which is tied to your Apple Account and governed by Apple's iCloud terms. We cannot
+      see it, and the App Privacy label says Data Not Collected. Read more in <a href="../privacy.html">the
+      privacy policy</a>.</p>
+
+      <h2 id="how-to">How do I sync MoneyOS between iPad and iPhone?</h2>
+      <div class="split-fig">
+        <div>
+          <p class="answer"><strong>Turn on iCloud sync in Settings on both devices, signed in to the same
+          Apple Account, then reopen the app.</strong> Five steps:</p>
+          <ol class="ways">
+            <li><strong>Use the same Apple Account.</strong> Sign in to iCloud with the same Apple Account on your iPhone and your iPad, and install MoneyOS on both.</li>
+            <li><strong>Turn on iCloud sync.</strong> On each device, open Settings in MoneyOS and turn on iCloud sync. It is off until you do.</li>
+            <li><strong>Reopen the app.</strong> Sync starts the next time MoneyOS opens, so close it and open it again. Until then the status reads Turns on next launch.</li>
+            <li><strong>Watch the status.</strong> The status shows Uploading your ledger while your entries go up, then Synced with the time of the last sync.</li>
+            <li><strong>Set up per-device settings.</strong> Your salary preset, Net worth extras and custom category names stay on each device. Set them where you need them.</li>
+          </ol>
+          <p>If you already logged entries on both devices, each device uploads what it has and the two
+          are combined into one ledger. If the same payment was logged on both, look for the amber warning
+          sign that marks a <a href="duplicate-transactions-expense-tracker.html">likely duplicate</a>.</p>
+        </div>
+        <figure class="phone-fig">
+          <img src="../img/blog/screen-icloud-sync.webp" width="580" height="1258" loading="lazy"
+               alt="MoneyOS Settings with iCloud sync on and a status of Synced 2 minutes ago, above the Your data, Privacy and Backup sections">
+          <figcaption>The Status line shows when your ledger last synced.</figcaption>
+        </figure>
+      </div>
+      <p>If a device is not signed in to iCloud, MoneyOS says it is not syncing and keeps the ledger on that
+      device. Sign in from the Settings app, then reopen MoneyOS. If a sync attempt fails, the status says
+      so, rather than failing quietly.</p>
+
+      <h2 id="what">What syncs, and what stays on each device?</h2>
+      <p class="answer"><strong>Your ledger syncs: transactions, limits, goals, cards, income and
+      commitments. A few personal settings stay on each device.</strong></p>
+      <figure class="phone-fig" style="max-width:640px;margin:24px auto">
+        <img src="../img/blog/card-sync-split.webp" width="880" height="587" loading="lazy"
+             alt="Two lists. Syncs through your iCloud: transactions in every ledger, limits, goals, cards and income, EMIs, SIPs and subscriptions. Stays on each device: salary preset, Net worth extras, custom category names, currency, Face ID lock and backup folder">
+        <figcaption>What iCloud sync carries, and what each device keeps.</figcaption>
+      </figure>
+      <p>Two of these are worth a note. Turn on Recurring salary on one device only, so that one device adds
+      your salary each month. And if you change currency on one device, the other notices when the synced
+      entries arrive in the new currency and offers to switch too. More on <a
+      href="track-expenses-another-currency-travel.html">currencies in MoneyOS</a>.</p>
+
+      <h2 id="backup">Is sync the same as a backup?</h2>
+      <p class="answer"><strong>No. Sync keeps your devices the same, so a mistake on one device reaches the
+      other. A backup is a copy you can go back to.</strong></p>
+      <p>If you delete an entry on your iPad, it disappears from your iPhone too. That is what sync is for,
+      but it is not protection against losing data. Keep MoneyOS's daily backups, and pick a backup folder
+      in Files or iCloud Drive so a copy survives even if the app is deleted. Here is how to <a
+      href="backup-expense-data-iphone.html">back up your expense data</a>.</p>
+
+      <h2 id="faq">Frequently asked questions</h2>
+      <div class="faq">
+        <details open><summary>Can I use MoneyOS on iPad and iPhone?</summary>
+          <p>Yes. MoneyOS runs on both iPhone and iPad. Turn on iCloud sync on each device, signed in to the same Apple Account, and both show the same ledger.</p></details>
+        <details><summary>Can the MoneyOS team see my synced data?</summary>
+          <p>No. Your ledger syncs through the private database in your own iCloud account. There is no MoneyOS account or server, and the App Privacy label says Data Not Collected.</p></details>
+        <details><summary>Is iCloud sync on by default?</summary>
+          <p>No. iCloud sync is off until you turn it on in Settings, and it starts the next time the app opens. Until then everything stays on the device.</p></details>
+        <details><summary>What syncs between my devices?</summary>
+          <p>Transactions in every ledger, limits, goals, cards, income, and commitments such as EMIs, SIPs and subscriptions. A few settings, like your salary preset and currency, stay on each device.</p></details>
+        <details><summary>Is sync the same as a backup?</summary>
+          <p>No. Sync keeps devices the same, so deleting an entry on one deletes it on the other. Keep daily backups on, and pick a backup folder in Files so a copy lives outside the app.</p></details>
+        <details><summary>Is MoneyOS free?</summary>
+          <p>Yes. The whole app is free, with no subscription, no ads and no in-app purchases.</p></details>
+      </div>
+    </article>
+  </div>
+
+  <section class="cta-box">
+    <div class="cta-copy">
+      <img src="../img/icon-512.png" alt="MoneyOS app icon" width="72" height="72" loading="lazy">
+      <h2>One ledger. Your devices. Your iCloud.</h2>
+      <p>MoneyOS is free on iPhone and iPad, with no account and no bank login. Sync is optional and private.</p>
+      <a class="store-link" href="https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497" target="_blank" rel="noopener">
+        <svg class="as" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient></defs><rect width="24" height="24" rx="5.5" fill="url(#asg)"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        Available for iPhone and iPad <span aria-hidden="true">→</span></a>
+      <p class="small">Questions? <a href="../support.html">Write to the person who built it.</a></p>
+    </div>
+    <img class="cta-phone" src="../img/blog/screen-icloud-sync.webp" width="580" height="1258" loading="lazy" alt="">
+  </section>
+</main>
+
+<footer class="blog-foot">
+  <a href="../index.html">Home</a><a href="index.html">Blog</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a><span>© 2026 MoneyOS</span>
+</footer>
+</body>
+</html>
