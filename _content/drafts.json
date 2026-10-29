@@ -256,6 +256,15 @@
    "preview": "https://claude.ai/artifact/AxNUhCtSjESzCtp5igcPrn",
    "slack_ts": "1793071517.433069",
    "status": "published"
+  },
+  {
+   "date": "2026-10-29",
+   "slug": "log-expense-with-siri",
+   "title": "Log an Expense with Siri, Without Opening the App",
+   "branch": "blog/log-expense-with-siri",
+   "preview": "https://claude.ai/artifact/DE2Hoh13Nk8MWx1L53RzSZ",
+   "slack_ts": "1793244379.905699",
+   "status": "pending"
   }
  ]
 }

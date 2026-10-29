@@ -31,7 +31,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 23 | published | Is it safe to share bank access with money apps? | is it safe to link bank account to app | No bank credentials needed |
 | 24 | published | Spot duplicate transactions before they skew your budget | duplicate transactions expense tracker | Review list flags likely repeats |
 | 25 | published | Track expenses on iPad and iPhone together, privately | expense tracker ipad iphone sync | Optional iCloud sync via your own iCloud |
-| 26 | todo | Log an expense with Siri, without opening the app | log expense with siri | Siri shortcuts: add expense, spent this month, voice add |
+| 26 | drafted | Log an expense with Siri, without opening the app | log expense with siri | Siri shortcuts: add expense, spent this month, voice add |
 | 27 | todo | Track spending on each credit card | track credit card spending app | Cards, per-card limits |
 | 28 | todo | What your Money Score means | money score app | Money Score in Stats |
 | 29 | todo | Saving for a goal: a simple tracker | savings goal tracker | Goals |
