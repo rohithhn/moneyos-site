@@ -265,6 +265,15 @@
    "preview": "https://claude.ai/artifact/DE2Hoh13Nk8MWx1L53RzSZ",
    "slack_ts": "1793244379.905699",
    "status": "pending"
+  },
+  {
+   "date": "2026-10-30",
+   "slug": "track-credit-card-spending",
+   "title": "How to Track Spending on Each Credit Card",
+   "branch": "blog/track-credit-card-spending",
+   "preview": "https://claude.ai/artifact/LaZxNZKrA1im62Z9YuW4Qd",
+   "slack_ts": "1793330744.059519",
+   "status": "pending"
   }
  ]
 }
