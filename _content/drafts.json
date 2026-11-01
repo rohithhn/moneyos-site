@@ -283,6 +283,15 @@
    "preview": "https://claude.ai/artifact/B1MV3YwqL42suRnUFQbXMV",
    "slack_ts": "1793417051.827079",
    "status": "pending"
+  },
+  {
+   "date": "2026-11-01",
+   "slug": "savings-goal-tracker",
+   "title": "Savings Goal Tracker: Save for a Trip, a Fund or a Big Buy",
+   "branch": "blog/savings-goal-tracker",
+   "preview": "https://claude.ai/artifact/EDL1u1hJHrkKw1Qz9j3dFy",
+   "slack_ts": "1793503487.945569",
+   "status": "pending"
   }
  ]
 }

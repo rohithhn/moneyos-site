@@ -34,7 +34,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 26 | drafted | Log an expense with Siri, without opening the app | log expense with siri | Siri shortcuts: add expense, spent this month, voice add |
 | 27 | drafted | Track spending on each credit card | track credit card spending app | Cards, per-card limits |
 | 28 | drafted | What your Money Score means | money score app | Money Score in Stats |
-| 29 | todo | Saving for a goal: a simple tracker | savings goal tracker | Goals |
+| 29 | drafted | Saving for a goal: a simple tracker | savings goal tracker | Goals |
 | 30 | todo | Export your expenses to Excel or Sheets | export expenses to excel iphone | CSV and JSON export |
 | 31 | todo | Add an expense from a bank email | add expense from email | Share from Mail, paste |
 | 32 | todo | Use tags to see spending that categories hide | expense tracker tags | Tags and payment modes |
