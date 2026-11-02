@@ -35,7 +35,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 27 | published | Track spending on each credit card | track credit card spending app | Cards, per-card limits |
 | 28 | published | What your Money Score means | money score app | Money Score in Stats |
 | 29 | published | Saving for a goal: a simple tracker | savings goal tracker | Goals |
-| 30 | drafted | Export your expenses to Excel or Sheets | export expenses to excel iphone | CSV and JSON export |
+| 30 | published | Export your expenses to Excel or Sheets | export expenses to excel iphone | CSV and JSON export |
 | 31 | todo | Add an expense from a bank email | add expense from email | Share from Mail, paste |
 | 32 | todo | Use tags to see spending that categories hide | expense tracker tags | Tags and payment modes |
 | 33 | todo | Keep monthly bills and rent on your radar | track monthly bills app | EMIs, SIPs and subscriptions |

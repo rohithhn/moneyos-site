@@ -300,7 +300,9 @@
    "branch": "blog/export-expenses-to-excel",
    "preview": "https://claude.ai/artifact/KREc35gVjyvhGrbuyKLTxC",
    "slack_ts": "1793592784.635459",
-   "status": "pending"
+   "status": "published",
+   "published": "2026-11-02",
+   "live_url": "https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html"
   }
  ]
 }

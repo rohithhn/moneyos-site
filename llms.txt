@@ -17,6 +17,7 @@ Key facts:
 
 ## Guides
 
+- [Export your expenses to Excel or Google Sheets](https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html): How to export your expenses from MoneyOS on iPhone as a CSV, open them in Excel, Google Sheets or Numbers, read each column, and total spending by category.
 - [A simple savings goal tracker: know if you will make it](https://rohithhn.github.io/moneyos-site/blog/savings-goal-tracker.html): How to track a savings goal in MoneyOS: set a target and a date, add funds as you save, and see each month whether you are on track or what it now needs.
 - [Your Money Score: what it means and how it is worked out](https://rohithhn.github.io/moneyos-site/blog/money-score-explained.html): What the Money Score in MoneyOS measures, the six parts behind it, how each part earns its points, and why it is a fixed formula, not a credit score.
 - [Track spending on each credit card, month by month](https://rohithhn.github.io/moneyos-site/blog/track-credit-card-spending.html): How to track spending on each credit card: set your own monthly limit per card, see all cards combined, and get a reminder before each bill is due.
