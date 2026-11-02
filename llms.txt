@@ -17,6 +17,10 @@ Key facts:
 
 ## Guides
 
+- [A simple savings goal tracker: know if you will make it](https://rohithhn.github.io/moneyos-site/blog/savings-goal-tracker.html): How to track a savings goal in MoneyOS: set a target and a date, add funds as you save, and see each month whether you are on track or what it now needs.
+- [Your Money Score: what it means and how it is worked out](https://rohithhn.github.io/moneyos-site/blog/money-score-explained.html): What the Money Score in MoneyOS measures, the six parts behind it, how each part earns its points, and why it is a fixed formula, not a credit score.
+- [Track spending on each credit card, month by month](https://rohithhn.github.io/moneyos-site/blog/track-credit-card-spending.html): How to track spending on each credit card: set your own monthly limit per card, see all cards combined, and get a reminder before each bill is due.
+- [Log an expense with Siri, without opening the app](https://rohithhn.github.io/moneyos-site/blog/log-expense-with-siri.html): How to log an expense with Siri in MoneyOS: the phrases to say, adding a category, hearing this month's total, and one-tap shortcuts for things you buy often.
 - [Track expenses on iPad and iPhone together, privately](https://rohithhn.github.io/moneyos-site/blog/expense-tracker-ipad-iphone-sync.html): Use one expense tracker on iPad and iPhone. How MoneyOS syncs your ledger through your own private iCloud, what syncs, what stays on each device, and setup.
 - [Duplicate transactions: spot them before they skew your budget](https://rohithhn.github.io/moneyos-site/blog/duplicate-transactions-expense-tracker.html): Why duplicate transactions creep into an expense tracker, how they inflate your spending, and how MoneyOS flags likely repeats before and after you import.
 - [Is it safe to link your bank account to a money app?](https://rohithhn.github.io/moneyos-site/blog/is-it-safe-to-link-bank-account-to-app.html): Is it safe to link your bank account to a money app? What each kind of bank access can see, what never to share, and how to track spending without it.

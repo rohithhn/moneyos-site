@@ -264,7 +264,7 @@
    "branch": "blog/log-expense-with-siri",
    "preview": "https://claude.ai/artifact/DE2Hoh13Nk8MWx1L53RzSZ",
    "slack_ts": "1793244379.905699",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-30",
@@ -273,7 +273,7 @@
    "branch": "blog/track-credit-card-spending",
    "preview": "https://claude.ai/artifact/LaZxNZKrA1im62Z9YuW4Qd",
    "slack_ts": "1793330744.059519",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-10-31",
@@ -282,7 +282,7 @@
    "branch": "blog/money-score-explained",
    "preview": "https://claude.ai/artifact/B1MV3YwqL42suRnUFQbXMV",
    "slack_ts": "1793417051.827079",
-   "status": "pending"
+   "status": "published"
   },
   {
    "date": "2026-11-01",
@@ -291,7 +291,7 @@
    "branch": "blog/savings-goal-tracker",
    "preview": "https://claude.ai/artifact/EDL1u1hJHrkKw1Qz9j3dFy",
    "slack_ts": "1793503487.945569",
-   "status": "pending"
+   "status": "published"
   }
  ]
 }
