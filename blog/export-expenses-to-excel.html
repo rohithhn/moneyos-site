@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Google tag (gtag.js): website visit counts only. The MoneyOS app itself sends nothing. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WFNCXSXRG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3WFNCXSXRG');
+</script>
+<title>Export Expenses to Excel or Google Sheets from iPhone</title>
+<meta name="description" content="How to export your expenses from MoneyOS on iPhone as a CSV, open them in Excel, Google Sheets or Numbers, read each column, and total spending by category.">
+<meta name="keywords" content="export expenses to excel iphone, expense tracker export csv, export expenses google sheets, expense tracker spreadsheet, download expense data">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="MoneyOS">
+<meta name="theme-color" content="#000000">
+<meta name="apple-itunes-app" content="app-id=6796755497">
+
+<link rel="canonical" href="https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html">
+<meta property="og:site_name" content="MoneyOS">
+<meta property="og:title" content="Export your expenses to Excel or Google Sheets">
+<meta property="og:description" content="Export your ledger as a CSV in two taps, open it in Excel, Google Sheets or Numbers, and total it any way you like.">
+<meta property="og:image" content="https://rohithhn.github.io/moneyos-site/img/blog/og-export-expenses-to-excel.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="MoneyOS Settings with the Export and share options, and the iPhone share sheet ready to save a MoneyOS CSV file">
+<meta property="article:published_time" content="2026-11-02">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://rohithhn.github.io/moneyos-site/img/blog/og-export-expenses-to-excel.jpg">
+<meta name="twitter:title" content="Export your expenses to Excel or Google Sheets">
+<meta name="twitter:description" content="Export your ledger as a CSV and open it in Excel, Google Sheets or Numbers.">
+
+<link rel="icon" type="image/png" href="../img/favicon.png">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "mainEntityOfPage": "https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html",
+      "headline": "Export Expenses to Excel or Google Sheets from iPhone",
+      "description": "How to export your expenses from MoneyOS on iPhone as a CSV, open them in Excel, Google Sheets or Numbers, read each column, and total spending by category.",
+      "datePublished": "2026-11-02",
+      "dateModified": "2026-11-02",
+      "inLanguage": "en-IN",
+      "image": [
+        "https://rohithhn.github.io/moneyos-site/img/blog/og-export-expenses-to-excel.jpg",
+        "https://rohithhn.github.io/moneyos-site/img/blog/screen-export.webp",
+        "https://rohithhn.github.io/moneyos-site/img/blog/card-csv-columns.webp"
+      ],
+      "author": {
+        "@type": "Organization",
+        "name": "MoneyOS"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MoneyOS",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://rohithhn.github.io/moneyos-site/img/icon-512.png"
+        }
+      },
+      "keywords": "export expenses to excel iphone, expense tracker export csv, export expenses google sheets, expense tracker spreadsheet, download expense data"
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to export expenses from MoneyOS to a spreadsheet",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Pick the ledger",
+          "text": "Exports cover the ledger you have open, so switch to Personal, Family or Business first if you use more than one."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Open Export and share",
+          "text": "Go to Settings and scroll to Export and share. Tap CSV (spreadsheet)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Choose where it goes",
+          "text": "The share sheet opens with a file named MoneyOS and the date. Save it to Files, AirDrop it to your Mac, or email it to yourself."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Open it in a spreadsheet",
+          "text": "Excel and Numbers open the file directly. In Google Sheets, use File, then Import, and upload the CSV."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Total it your way",
+          "text": "Filter Direction to expense, then sum Amount by Category or by month. Each row is one transaction, newest first."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I export my expenses from MoneyOS to Excel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. In Settings, under Export and share, tap CSV (spreadsheet). The file opens in Excel, Google Sheets and Numbers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What columns does the MoneyOS CSV have?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Date, Direction, Amount, Currency, Merchant, Category, Payment, Card, Tags, Source, Confidence and ID. Dates are written as year, month and day, and amounts are plain numbers with no currency symbol."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the export include all my ledgers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The CSV, Markdown, text and PDF exports cover the ledger you have open. The JSON export in the Backup section covers all your transactions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I see spending by category in a spreadsheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Filter the Direction column to expense, then sum the Amount column for each Category, for example with a pivot table or a SUMIF formula."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the exported file encrypted?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. CSV, Markdown, text and PDF exports are plain files, so keep them somewhere private. For a protected copy, use Encrypted backup instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is MoneyOS free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The whole app is free, with no subscription, no ads and no in-app purchases."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://rohithhn.github.io/moneyos-site/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://rohithhn.github.io/moneyos-site/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Export Expenses to Excel or Google Sheets from iPhone",
+          "item": "https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="blog">
+<header class="site blog-head">
+  <a class="brand" href="../index.html"><img src="../img/icon-512.png" alt="" width="34" height="34">MoneyOS</a>
+  <nav><a href="index.html" aria-current="page">Blog</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
+</header>
+
+<main>
+  <section class="post-hero">
+    <div class="post-hero-copy">
+      <p class="crumbs"><a href="../index.html">Home</a> / <a href="index.html">Blog</a> / Guide</p>
+      <p class="kicker">Guide · 2 November 2026 · 5 min read</p>
+      <h1>Export your expenses to Excel or Google Sheets</h1>
+      <p class="lede">Sometimes the app's own charts are not enough. You want your year's spending in a
+      spreadsheet, to share a month's household costs, or to keep records for your own files. MoneyOS
+      exports your ledger as a CSV that Excel, Google Sheets and Numbers all open. Here is how, what each
+      column means, and how to turn it into a total by category in a few minutes.</p>
+      <a class="store-link" href="https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497" target="_blank" rel="noopener">
+        <svg class="as" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient></defs><rect width="24" height="24" rx="5.5" fill="url(#asg)"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        Available for iPhone and iPad <span aria-hidden="true">→</span></a>
+    </div>
+    <figure class="post-hero-phone">
+      <img src="../img/blog/screen-export.webp" width="580" height="1258" fetchpriority="high"
+           alt="MoneyOS Settings with the Export and share options, and the iPhone share sheet ready to save a MoneyOS CSV file">
+    </figure>
+  </section>
+
+  <section class="tldr" aria-label="Summary">
+    <h2>In short</h2>
+    <dl class="tldr-grid">
+      <div><dt>Where</dt><dd>Settings, then Export and share.</dd></div>
+      <div><dt>Format</dt><dd>CSV, plus Markdown, text and PDF.</dd></div>
+      <div><dt>Opens in</dt><dd>Excel, Google Sheets and Numbers.</dd></div>
+      <div><dt>Note</dt><dd>Plain files, not encrypted. Keep them private.</dd></div>
+    </dl>
+  </section>
+
+  <div class="post-layout">
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <ol>
+        <li><a href="#why">Why export</a></li>
+        <li><a href="#how-to">Exporting a CSV</a></li>
+        <li><a href="#columns">What the columns mean</a></li>
+        <li><a href="#totals">Totals by category</a></li>
+        <li><a href="#other">Other formats</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </nav>
+
+    <article class="post">
+      <h2 id="why">Why export your expenses to a spreadsheet?</h2>
+      <p class="answer"><strong>Because a spreadsheet lets you slice your own numbers any way you like,
+      and keep a copy outside the app.</strong></p>
+      <p>The app shows the views most people need: the month, categories, limits and trends. A
+      spreadsheet is for everything else. You might want a full year of fuel costs, a list of every
+      card payment for a reimbursement claim, or your own chart for a family budget meeting. A CSV is
+      also the most portable format there is, so your data is never locked into one app.</p>
+
+      <h2 id="how-to">How do I export my expenses to Excel or Google Sheets?</h2>
+      <div class="split-fig">
+        <div>
+          <p class="answer"><strong>In MoneyOS, go to Settings, tap CSV (spreadsheet) under Export and
+          share, and save or send the file. Then open it in your spreadsheet app.</strong> Five steps:</p>
+          <ol class="ways">
+            <li><strong>Pick the ledger.</strong> Exports cover the ledger you have open, so switch to Personal, Family or Business first if you use more than one.</li>
+            <li><strong>Open Export and share.</strong> Go to Settings and scroll to Export and share. Tap CSV (spreadsheet).</li>
+            <li><strong>Choose where it goes.</strong> The share sheet opens with a file named MoneyOS and the date. Save it to Files, AirDrop it to your Mac, or email it to yourself.</li>
+            <li><strong>Open it in a spreadsheet.</strong> Excel and Numbers open the file directly. In Google Sheets, use File, then Import, and upload the CSV.</li>
+            <li><strong>Total it your way.</strong> Filter Direction to expense, then sum Amount by Category or by month. Each row is one transaction, newest first.</li>
+          </ol>
+          <p>If your transactions are spread across Personal, Family and Business, export each ledger
+          on its own. Read more on <a href="separate-personal-business-expenses.html">separate
+          ledgers</a>.</p>
+        </div>
+        <figure class="phone-fig">
+          <img src="../img/blog/screen-export.webp" width="580" height="1258" loading="lazy"
+               alt="MoneyOS Settings showing Backup and Export and share sections, with the share sheet open for a CSV file">
+          <figcaption>Tap CSV (spreadsheet), then choose where the file goes.</figcaption>
+        </figure>
+      </div>
+
+      <h2 id="columns">What is in the MoneyOS CSV file?</h2>
+      <p class="answer"><strong>One row per transaction, newest first, with twelve columns: Date,
+      Direction, Amount, Currency, Merchant, Category, Payment, Card, Tags, Source, Confidence and
+      ID.</strong></p>
+      <figure class="phone-fig" style="max-width:440px;margin:24px auto">
+        <img src="../img/blog/card-csv-columns.webp" width="880" height="431" loading="lazy"
+             alt="A MoneyOS CSV opened in a spreadsheet with columns Date, Direction, Amount, Currency, Merchant, Category and Payment, and six example rows">
+        <figcaption>The first seven columns, as a spreadsheet shows them.</figcaption>
+      </figure>
+      <p>Dates are written year first, such as 2026-11-01, so they sort correctly. Amount is a plain
+      number with no currency symbol or commas, which makes it easy to add up, and Currency sits in its
+      own column. Direction says whether a row is an expense, income or a transfer. Payment holds cash,
+      upi or card, and Card holds the card's name when you picked one. Tags are separated by
+      semicolons. Source shows how the entry was added, for example typed, by voice or from an import.</p>
+
+      <h2 id="totals">How do I total my spending by category in a spreadsheet?</h2>
+      <p class="answer"><strong>Filter Direction to expense, then add up Amount for each Category, with a
+      pivot table or a SUMIF formula.</strong></p>
+      <p>In Excel or Google Sheets, select the data and insert a pivot table with Category as the rows
+      and the sum of Amount as the values, filtered to Direction equals expense. For a single number, a
+      formula such as <code>=SUMIFS(C:C, B:B, "expense", F:F, "Food")</code> adds up every Food expense.
+      To compare months, add a column that takes the first seven characters of the date, which gives
+      the year and month. For a quicker monthly picture inside the app, see the <a
+      href="monthly-budget-review.html">10-minute monthly review</a>.</p>
+
+      <h2 id="other">What other export formats does MoneyOS have?</h2>
+      <p class="answer"><strong>Besides CSV, you can export a Markdown report, a plain-text ledger and a
+      PDF report, each grouped by month.</strong></p>
+      <p>The reports show each month's money in, money out and the difference, then the transactions
+      under it. They suit sharing or printing rather than calculations. All four are plain files, not
+      encrypted, so keep them somewhere private. For a protected copy of everything, use Encrypted
+      backup in the same Settings screen. Here is how to <a href="backup-expense-data-iphone.html">back
+      up your expense data</a>. MoneyOS has no account and no server of ours. See <a href="../privacy.html">the
+      privacy policy</a>.</p>
+
+      <h2 id="faq">Frequently asked questions</h2>
+      <div class="faq">
+        <details open><summary>Can I export my expenses from MoneyOS to Excel?</summary>
+          <p>Yes. In Settings, under Export and share, tap CSV (spreadsheet). The file opens in Excel, Google Sheets and Numbers.</p></details>
+        <details><summary>What columns does the MoneyOS CSV have?</summary>
+          <p>Date, Direction, Amount, Currency, Merchant, Category, Payment, Card, Tags, Source, Confidence and ID. Dates are written as year, month and day, and amounts are plain numbers with no currency symbol.</p></details>
+        <details><summary>Does the export include all my ledgers?</summary>
+          <p>The CSV, Markdown, text and PDF exports cover the ledger you have open. The JSON export in the Backup section covers all your transactions.</p></details>
+        <details><summary>How do I see spending by category in a spreadsheet?</summary>
+          <p>Filter the Direction column to expense, then sum the Amount column for each Category, for example with a pivot table or a SUMIF formula.</p></details>
+        <details><summary>Is the exported file encrypted?</summary>
+          <p>No. CSV, Markdown, text and PDF exports are plain files, so keep them somewhere private. For a protected copy, use Encrypted backup instead.</p></details>
+        <details><summary>Is MoneyOS free?</summary>
+          <p>Yes. The whole app is free, with no subscription, no ads and no in-app purchases.</p></details>
+      </div>
+    </article>
+  </div>
+
+  <section class="cta-box">
+    <div class="cta-copy">
+      <img src="../img/icon-512.png" alt="MoneyOS app icon" width="72" height="72" loading="lazy">
+      <h2>Your data, in your spreadsheet.</h2>
+      <p>MoneyOS is free, with no account and no bank login. Export to CSV whenever you want your data out.</p>
+      <a class="store-link" href="https://apps.apple.com/in/app/moneyos-expense-tracker/id6796755497" target="_blank" rel="noopener">
+        <svg class="as" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="asg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1ec8fb"/><stop offset="1" stop-color="#1a72f0"/></linearGradient></defs><rect width="24" height="24" rx="5.5" fill="url(#asg)"/><path d="M12.6 6.2 8.3 13.6M11.4 6.2l4.3 7.4M6.5 13.6h11M7.6 17.8l.9-1.5M16.4 17.8l-2.7-4.7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        Available for iPhone and iPad <span aria-hidden="true">→</span></a>
+      <p class="small">Questions? <a href="../support.html">Write to the person who built it.</a></p>
+    </div>
+    <img class="cta-phone" src="../img/blog/screen-export.webp" width="580" height="1258" loading="lazy" alt="">
+  </section>
+</main>
+
+<footer class="blog-foot">
+  <a href="../index.html">Home</a><a href="index.html">Blog</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a><span>© 2026 MoneyOS</span>
+</footer>
+</body>
+</html>
