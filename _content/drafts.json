@@ -303,6 +303,15 @@
    "status": "published",
    "published": "2026-11-02",
    "live_url": "https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html"
+  },
+  {
+   "date": "2026-11-03",
+   "slug": "add-expense-from-bank-email",
+   "title": "Add an expense from a bank email, in two taps",
+   "branch": "blog/add-expense-from-bank-email",
+   "preview": "https://claude.ai/artifact/KRSdTZ8FzNzQRF1qzCXdG8",
+   "slack_ts": "1793676320.822519",
+   "status": "pending"
   }
  ]
 }
