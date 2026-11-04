@@ -312,6 +312,15 @@
    "preview": "https://claude.ai/artifact/KRSdTZ8FzNzQRF1qzCXdG8",
    "slack_ts": "1793676320.822519",
    "status": "pending"
+  },
+  {
+   "date": "2026-11-04",
+   "slug": "expense-tracker-tags",
+   "title": "Use tags to see spending that categories hide",
+   "branch": "blog/expense-tracker-tags",
+   "preview": "https://claude.ai/artifact/E13V6wRuKw1AHjkubn25Pt",
+   "slack_ts": "1793762660.038189",
+   "status": "pending"
   }
  ]
 }

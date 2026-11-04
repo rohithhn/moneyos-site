@@ -37,7 +37,7 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 29 | published | Saving for a goal: a simple tracker | savings goal tracker | Goals |
 | 30 | published | Export your expenses to Excel or Sheets | export expenses to excel iphone | CSV and JSON export |
 | 31 | drafted | Add an expense from a bank email | add expense from email | Share from Mail, paste |
-| 32 | todo | Use tags to see spending that categories hide | expense tracker tags | Tags and payment modes |
+| 32 | drafted | Use tags to see spending that categories hide | expense tracker tags | Tags and payment modes |
 | 33 | todo | Keep monthly bills and rent on your radar | track monthly bills app | EMIs, SIPs and subscriptions |
 | 34 | todo | Add an expense from Control Center | quick add expense iphone | Control Center control that opens Add |
 | 35 | todo | Budgeting in dollars, pounds or dirhams from India | expense tracker usd india | 39 currencies, any symbol typed |
