@@ -39,5 +39,5 @@ MoneyOS feature (check `docs/store/listing-v2.json` in rohithhn/money-os).
 | 31 | drafted | Add an expense from a bank email | add expense from email | Share from Mail, paste |
 | 32 | drafted | Use tags to see spending that categories hide | expense tracker tags | Tags and payment modes |
 | 33 | todo | Keep monthly bills and rent on your radar | track monthly bills app | EMIs, SIPs and subscriptions |
-| 34 | todo | Add an expense from Control Center | quick add expense iphone | Control Center control that opens Add |
+| 34 | drafted | Add an expense from Control Center | quick add expense iphone | Control Center control that opens Add |
 | 35 | todo | Budgeting in dollars, pounds or dirhams from India | expense tracker usd india | 39 currencies, any symbol typed |

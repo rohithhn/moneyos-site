@@ -321,6 +321,15 @@
    "preview": "https://claude.ai/artifact/E13V6wRuKw1AHjkubn25Pt",
    "slack_ts": "1793762660.038189",
    "status": "pending"
+  },
+  {
+   "date": "2026-11-05",
+   "slug": "add-expense-control-center",
+   "title": "Add an expense from Control Center, in one tap",
+   "branch": "blog/add-expense-control-center",
+   "preview": "https://claude.ai/artifact/E7zthXkDLBCv24xHsHcPyD",
+   "slack_ts": "1793849079.629889",
+   "status": "pending"
   }
  ]
 }
