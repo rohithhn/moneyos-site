@@ -11,6 +11,21 @@
   gtag('js', new Date());
   gtag('config', 'G-3WFNCXSXRG');
 </script>
+<!-- Meta pixel: website visits and App Store clicks only. The MoneyOS app itself sends nothing. -->
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3724199267737803');
+  fbq('track', 'PageView');
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="apps.apple.com"]');
+    if (a) fbq('track', 'Lead', { content_name: 'App Store click' });
+  });
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=3724199267737803&ev=PageView&noscript=1"></noscript>
 <title>Privacy Policy · MoneyOS</title>
 <link rel="canonical" href="https://rohithhn.github.io/moneyos-site/privacy.html">
 <meta name="description" content="MoneyOS privacy policy. The app has no account and no servers, and your money data stays on your iPhone. AI runs on device. This website counts visits only.">
@@ -38,7 +53,7 @@
   </header>
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated 3 October 2026</p>
+  <p class="updated">Last updated 8 November 2026</p>
 
   <p><strong>MoneyOS does not collect any data.</strong> There is no account, no login, and no
   server belonging to us. This is not a policy about how carefully we handle your information; we
@@ -81,10 +96,15 @@
   count visits, such as which pages are read and how often the App Store link is clicked. Google
   Analytics may set cookies and receives standard browser information such as your approximate
   location and device type; it is governed by <a href="https://policies.google.com/privacy">Google’s
-  privacy policy</a>. We use these totals only to understand how the site is used. Nothing from the
-  website reaches the app, and nothing from the app reaches the website. You can block this with
+  privacy policy</a>. We use these totals only to understand how the site is used. You can block this with
   any content blocker or Google’s
   <a href="https://tools.google.com/dlpage/gaoptout">opt-out add-on</a>.</p>
+  <p>The website also uses the Meta pixel, so we can measure our Facebook and Instagram ads: it records
+  that a page was visited and when the App Store link is clicked. Meta may set cookies and receives
+  standard browser information; it is governed by <a href="https://www.facebook.com/privacy/policy/">Meta’s
+  privacy policy</a>, and you can manage ad preferences in your Facebook or Instagram settings or block it
+  with any content blocker. Nothing from the website reaches the app, and nothing from the app reaches
+  the website.</p>
 
   <h2>Contact</h2>
   <p>Questions about privacy: <a href="mailto:growwosmoney@gmail.com">growwosmoney@gmail.com</a></p>

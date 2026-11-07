@@ -11,6 +11,21 @@
   gtag('js', new Date());
   gtag('config', 'G-3WFNCXSXRG');
 </script>
+<!-- Meta pixel: website visits and App Store clicks only. The MoneyOS app itself sends nothing. -->
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3724199267737803');
+  fbq('track', 'PageView');
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="apps.apple.com"]');
+    if (a) fbq('track', 'Lead', { content_name: 'App Store click' });
+  });
+</script>
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=3724199267737803&ev=PageView&noscript=1"></noscript>
 <title>What Is FIRE? How to Estimate Your FIRE Number in India</title>
 <meta name="description" content="FIRE means saving enough to live off your investments. How the FIRE number is worked out, why inflation matters so much, and how to estimate yours on iPhone.">
 <meta name="keywords" content="fire calculator india, what is fire, fire number, financial independence retire early india, 4 percent rule, retirement corpus calculator">
