@@ -42,6 +42,9 @@ If the merge conflicts on `blog/index.html` or `sitemap.xml` (another post was p
 keep both entries, newest first. Then delete the remote draft branch. Live URL:
 `https://rohithhn.github.io/moneyos-site/blog/<slug>.html`.
 
+After the page is live (check the URL returns 200), run `_content/indexnow.sh` so Bing and ChatGPT
+search pick it up the same day. Google reads `sitemap.xml` through Search Console on its own.
+
 ## Writing rules
 
 - **Facts only.** Every claim about the app must be checked against
