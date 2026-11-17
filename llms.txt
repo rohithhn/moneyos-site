@@ -17,6 +17,9 @@ Key facts:
 
 ## Guides
 
+- [Add an expense from Control Center, in one tap](https://rohithhn.github.io/moneyos-site/blog/add-expense-control-center.html): How to add the MoneyOS Add expense control to Control Center, the Action Button or the Lock Screen on iOS 18, and log a spend by voice in one tap.
+- [Use tags to see spending that categories hide](https://rohithhn.github.io/moneyos-site/blog/expense-tracker-tags.html): How tags work in MoneyOS: tag a trip, a wedding or a work claim across categories, then filter Home by tag, card or payment mode to see where that money went.
+- [Add an expense from a bank email, in two taps](https://rohithhn.github.io/moneyos-site/blog/add-expense-from-bank-email.html): How to turn a bank alert email into an expense on iPhone: share it from Mail to MoneyOS, or paste it. OTPs, failed payments and bill notices are skipped.
 - [Export your expenses to Excel or Google Sheets](https://rohithhn.github.io/moneyos-site/blog/export-expenses-to-excel.html): How to export your expenses from MoneyOS on iPhone as a CSV, open them in Excel, Google Sheets or Numbers, read each column, and total spending by category.
 - [A simple savings goal tracker: know if you will make it](https://rohithhn.github.io/moneyos-site/blog/savings-goal-tracker.html): How to track a savings goal in MoneyOS: set a target and a date, add funds as you save, and see each month whether you are on track or what it now needs.
 - [Your Money Score: what it means and how it is worked out](https://rohithhn.github.io/moneyos-site/blog/money-score-explained.html): What the Money Score in MoneyOS measures, the six parts behind it, how each part earns its points, and why it is a fixed formula, not a credit score.
