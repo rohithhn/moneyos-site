@@ -109,6 +109,12 @@ td { color: #c7c7cc; } td.yes { color: var(--fg); font-weight: 600; background: 
 .faq summary::after { content: "+"; margin-left: auto; color: var(--gold); font-weight: 400; font-size: 22px; line-height: 1.1; }
 .faq details[open] summary::after { content: "–"; }
 .faq details p { padding: 0 20px 6px; color: var(--muted); }
+.post nav.related { display: block; margin-top: 72px; }
+.post .related h2 { margin: 0 0 16px; }
+.related ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.related li a { display: block; padding: 16px 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); color: var(--fg); text-decoration: none; font-weight: 600; }
+.related li a::after { content: " \2192"; color: var(--gold); }
+.related li a:hover { border-color: var(--gold); }
 
 .cta-box { display: grid; grid-template-columns: 1fr 260px; align-items: center; gap: 40px; margin: 96px 0 0; overflow: hidden;
   background: radial-gradient(600px 300px at 85% 30%, rgba(231,193,92,.14), transparent 70%), var(--card);

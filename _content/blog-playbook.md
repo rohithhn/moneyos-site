@@ -47,8 +47,29 @@ If the merge conflicts on `blog/index.html` or `sitemap.xml` (another post was p
 keep both entries, newest first. Then delete the remote draft branch. Live URL:
 `https://rohithhn.github.io/moneyos-site/blog/<slug>.html`.
 
-After the page is live (check the URL returns 200), run `_content/indexnow.sh` so Bing and ChatGPT
-search pick it up the same day. Google reads `sitemap.xml` through Search Console on its own.
+Before merging, `python3 _content/seocheck.py` must print `OK`. Fix anything it lists; never publish
+a post that fails it. After the push, the `IndexNow ping` GitHub Action waits for the page to go
+live and pings IndexNow (Bing, so ChatGPT search and Copilot). Check that run succeeded with the
+GitHub Actions tool. Google reads `sitemap.xml` through Search Console and the root `robots.txt`
+(in the `rohithhn/rohithhn.github.io` repo, which allows every crawler, AI crawlers included).
+
+## Search and AI search (every post, every edit)
+
+The goal is that each post can be indexed by Google, quoted in Google AI Overviews and AI Mode,
+and found by ChatGPT search, Perplexity, Copilot and other AI answer engines.
+- Robots meta exactly `index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1`
+  (no snippet limit, so AI answers can quote the page). Never add `noindex` or `nosnippet`.
+- Plain static HTML: all text in the HTML source, nothing hidden behind JavaScript or tabs.
+- Open with a two or three sentence direct answer to the search query, before any story. Use
+  question-style H2s where natural, short paragraphs, numbered steps, and a table when comparing.
+- FAQ section with 5 or 6 real questions and short self-contained answers, mirrored in
+  `FAQPage` JSON-LD. `HowTo` JSON-LD when there are steps. `BlogPosting` with `datePublished` and
+  `dateModified` (update `dateModified` and the sitemap `<lastmod>` whenever the post changes).
+- Add the post to `llms.txt` under Guides (newest first), to `sitemap.xml` and to `blog/index.html`.
+- Run `python3 _content/related.py` so every post gets a Related guides list and no post is left
+  without links from other posts.
+- State facts plainly and specifically (feature names, steps, limits), since AI engines quote
+  clear factual sentences. Link to 3 to 6 related posts and back from at least one older post.
 
 ## Writing rules
 
